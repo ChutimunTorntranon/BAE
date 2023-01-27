@@ -18,6 +18,7 @@ function Router() {
 					<Route path='/Edp' element={<EdpPage />} />
 				</>
 			</Routes>
+			{/* Sawasdee */}
 		</>
 	);
 }
