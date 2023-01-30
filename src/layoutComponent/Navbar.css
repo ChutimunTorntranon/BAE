@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600&family=Noto+Sans+Thai:wght@100;200;300;400;500&display=swap");
+.fontTitle {
+  font-family: "Hind Madurai", sans-serif;
+}
+.fontNav {
+  font-family: "Noto Sans Thai", sans-serif;
+}
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(rgb(34, 60, 255), rgb(34, 130, 255));
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
