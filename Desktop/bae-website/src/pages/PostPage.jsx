@@ -20,6 +20,7 @@ function PostPage() {
 			<NewPage />
 			<Footer />
 			<GoToTop />
+			{/* edit font */}
 		</div>
 	);
 }
