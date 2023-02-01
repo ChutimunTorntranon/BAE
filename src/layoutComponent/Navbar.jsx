@@ -22,7 +22,7 @@ function Navbar() {
               />
             </Link>
           </span>
-          BUNNAG INDUSTRIAL <br></br>TECHNOLOGIES AND SOFTWARE
+          BROTHER AUTO PARTS <br></br>& ENGINEERING CO,.LTD
         </div>
         <div
           onClick={() => setOpen(!open)}

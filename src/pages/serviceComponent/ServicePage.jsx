@@ -14,7 +14,7 @@ function ServicePage() {
           <div className="image cursor-pointer">
             <img
               src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Parts04.png"
-              alt="zince"
+              alt="Zinc"
               className="image__img"
             ></img>
             <div className="image__overlay image__overlay--blur">ZINC</div>
@@ -24,20 +24,22 @@ function ServicePage() {
           <div className="image cursor-pointer">
             <img
               src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-09.png"
-              alt="zince"
+              alt="EDP"
               className="image__img"
             ></img>
             <div className="image__overlay image__overlay--blur">EDP</div>
           </div>
         </Link>
-        <div className="image cursor-pointer">
-          <img
-            src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium.png"
-            alt="zince"
-            className="image__img"
-          ></img>
-          <div className="image__overlay image__overlay--blur">CHROMIUM</div>
-        </div>
+        <Link to="/Chromium">
+          <div className="image cursor-pointer">
+            <img
+              src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium1.jpg"
+              alt="Chromium"
+              className="image__img"
+            ></img>
+            <div className="image__overlay image__overlay--blur">CHROMIUM</div>
+          </div>
+        </Link>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ function Footer() {
         </div>
         <div className="mx-auto container">
           <h1 className="p-3 fontNav">
-            บริษัท บุนนาค อินดัสเตรียล เทคโนโลยี แอนด์ ซอฟต์แวร์
+            บริษัท บราเดอร์ ออโต้พาร์ทส์ แอนด์ เอ็นจิเนียริ่ง จำกัด
           </h1>
           <div className="p-3 flex fontNav">
             <FaMapMarkerAlt className="w-[50px] mt-1" /> : 10 รามอินทรา 117 แยก

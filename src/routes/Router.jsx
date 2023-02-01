@@ -6,6 +6,7 @@ import ZinceProduct from "../pages/zincePage/ZinceProduct";
 import ProductPage from "../pages/productPage/ProductPage";
 import EdpPage from "../pages/edpComponent/EdpPage";
 import Navbar2 from "../layoutComponent/Navbar2";
+import ChromiumPage from "../pages/chromiumpage/ChromiumPage";
 
 function Router() {
   return (
@@ -18,6 +19,7 @@ function Router() {
           <Route path="/Service" element={<ProductPage />} />
           <Route path="/Zinc" element={<ZinceProduct />} />
           <Route path="/Edp" element={<EdpPage />} />
+          <Route path="/Chromium" element={<ChromiumPage />} />
         </>
       </Routes>
       {/* Sawasdee */}
