@@ -30,60 +30,60 @@ function Box2() {
           <div className="grid grid-cols-3 p-5">
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-01.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium9.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-01.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium9.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-02.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium8.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-02.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium8.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-03.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium7.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-03.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium7.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-04.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium6.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-04.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium6.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-05.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium5.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-05.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium5.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-06.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium4.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-06.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium4.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"

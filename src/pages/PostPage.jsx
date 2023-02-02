@@ -1,7 +1,7 @@
 import React from "react";
 import BasicSlider from "../pages/BasicSlider/BasicSlider";
 import ServicePage from "./serviceComponent/ServicePage";
-import ProfilePage from "./profileComponents/ProfilePage";
+// import ProfilePage from "./profileComponents/ProfilePage";
 import CerPage from "./cerComponents/CerPage";
 import WhyPage from "./cerComponents/WhyPage";
 import NewPage from "./newsComponent/NewPage";
@@ -16,7 +16,7 @@ function PostPage() {
       <LinePage />
       <ServicePage />
       {/* <ProductPage /> */}
-      <ProfilePage />
+      {/* <ProfilePage /> */}
       <CerPage />
       <WhyPage />
       <NewPage />
