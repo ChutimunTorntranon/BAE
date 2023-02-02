@@ -10,7 +10,7 @@ function Footer() {
       <div className="my-auto grid mx-auto container gap-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="container my-auto">
           <img
-            src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Logobae.png"
+            src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/logo-bae/MicrosoftTeams-image.png"
             alt=""
             className="mx-auto w-[120px] h-[120px] xl:w-[160px] xl:h-[160px] my-auto"
           />

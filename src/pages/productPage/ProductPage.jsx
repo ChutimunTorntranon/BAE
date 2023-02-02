@@ -39,7 +39,9 @@ function ProductPage() {
                 alt="Chromium"
                 className="image__img"
               ></img>
-              <div className="image__overlay image__overlay--blur">EDP</div>
+              <div className="image__overlay image__overlay--blur">
+                Chromium
+              </div>
             </div>
           </Link>
           {/* <Link>

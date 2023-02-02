@@ -12,13 +12,13 @@ function Navbar() {
   return (
     <div className="shadow-md xl:max-w-full container fixed top-0 left-0 z-50 bg-gray-200">
       <div className="md:flex items-center justify-between py-4 md:px-10 px-7 container md:mx-auto">
-        <div className="fontTitle xl:text-xl text-xl cursor-pointer flex items-center text-gray-[800] text-start text-[12px]">
+        <div className="fontTitle xl:text-xl text-xl cursor-pointer flex items-center text-gray-[800] text-center text-[12px] my-auto">
           <span className="text-3xl text-indigo-600 mr-1 pt-2">
             <Link to="/">
               <img
-                src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Logobae.png"
+                src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/logo-bae/MicrosoftTeams-image.png"
                 alt=""
-                className="w-[80px] h-[80px] xl:w-[120px] xl:h-[120px] my-[-10px]"
+                className="w-[110px] h-[110px] xl:w-[120px] xl:h-[120spx] my-[-10px]"
               />
             </Link>
           </span>
