@@ -4,11 +4,11 @@ function Box2() {
   return (
     <div className="Box1 xl:mt-[20px] mt-[-1px]">
       <div className="container mx-auto">
-        <div className="heading p-5">
+        <div className="heading p-5 headFont">
           <strong>Chromium การชุบโครเมี่ยม คืออะไร?</strong>
         </div>
         <ul className="list-disc p-5">
-          <li className="p-5">
+          <li className="p-5 textScript">
             <strong>chrome plating</strong> คือ เทคโนโลยีการชุบโลหะ
             ที่อาศัยกลไกทางไฟฟ้า วิธีนี้จะได้ผิวเคลือบที่เรียบ
             สามารถทนต่อการกัดกร่อนได้สูง
@@ -18,7 +18,7 @@ function Box2() {
             ชุบโลหะด้วยไฟฟ้าสามารถชุบวัสดุได้หลากหลาย ทั้งเหล็ก อลูมิเนียม ซิงค์
             ฯลฯ
           </li>
-          <li className="p-5">
+          <li className="p-5 textScript">
             <strong>ข้อดีของการชุบ Chromium ?</strong>
             ช่วยให้วัสดุที่ได้รับการชุบมีความเงาสวยงาม
             ป้องกันการถลอกจากการกัดกร่อนและการกระแทก

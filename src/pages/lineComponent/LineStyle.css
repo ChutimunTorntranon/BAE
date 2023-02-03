@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+
+.headFont {
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.textScript {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.textScript1 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}

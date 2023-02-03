@@ -2,15 +2,16 @@ import React from "react";
 import "./Servicepage.css";
 import { Link } from "react-router-dom";
 import "../../layoutComponent/Navbar.css";
+import "../lineComponent/LineStyle.css";
 function ServicePage() {
   return (
     <div className="container mx-auto">
-      <div className="container mx-auto xl:text-center text-left p-3 fontNav">
+      <div className="container mx-auto xl:text-center text-left p-3 headFont">
         OUR SERVICE
       </div>
 
       <div className="grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container mx-auto p-3">
-        <Link to="/Zinc">
+        <Link to="/Stamping&welding">
           <div className="image cursor-pointer">
             <img
               src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Parts04.png"

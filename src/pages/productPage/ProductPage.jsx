@@ -6,12 +6,24 @@ import GoToTop from "../../component/GoToTop";
 
 function ProductPage() {
   return (
-    <div className="mt-[20%] xl:mt-[8%] ">
+    <div className="mt-[20%] xl:mt-[7%] ">
       <div className="w-full h-[200px] bg-indigo-600">
         <div className="container grid mx-auto h-full">
           <div className="mx-auto my-auto Zince">SERVICE</div>
         </div>
-        <div className="grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto p-3">
+        <div className="grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container mx-auto p-3">
+          <Link to="/Stamping&welding">
+            <div className="image cursor-pointer">
+              <img
+                src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Parts04.png"
+                alt="zinc"
+                className="image__img"
+              ></img>
+              <div className="image__overlay image__overlay--blur">
+                Stamp & welding
+              </div>
+            </div>
+          </Link>
           <Link to="/Zinc">
             <div className="image cursor-pointer">
               <img
@@ -32,7 +44,7 @@ function ProductPage() {
               <div className="image__overlay image__overlay--blur">EDP</div>
             </div>
           </Link>
-          <Link to="/">
+          <Link to="/Chromium">
             <div className="image cursor-pointer">
               <img
                 src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium1.jpg"

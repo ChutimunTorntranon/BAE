@@ -1,27 +1,30 @@
 import React from "react";
 import "./NewStyle.css";
+import "../lineComponent/LineStyle.css";
 function NewPage() {
   return (
     <div className="container mx-auto p-3">
       <div className="">
-        <h1 className="p-3 fontNav">ข่าวสารเกี่ยวกับเรา</h1>
+        <h1 className="p-3 headFont">ข่าวสารเกี่ยวกับเรา</h1>
       </div>
 
       <div class="p-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
         <img
           className="rounded-t-lg"
-          src="https://img.freepik.com/free-photo/asian-colleague-male-female-friend-casual-dress-meeting-consult-work-together-with-fun-happiness-successful-brainstorm-workplace-business-partners-relation-ideas-concept_609648-2224.jpg?w=1800&t=st=1674782760~exp=1674783360~hmac=a36504d1397645012b16d102a08a20263bf67d0f122f2901c20bf48cca2bc57a"
+          src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/edit-logo.png"
           alt=""
         />
 
         <div className="p-5 fontNav">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
+          <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+            SUISEI Production Control System
           </h5>
 
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 fontNav">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
+            ใช้ในสายการผลิตอุตสาหกรรมที่ก้าวสู่ ยุคอุตสาหกรรม 4.0
+            เข้ามาสนับสนุนการพัฒนาโรงงานให้เป็น Smart Factory
+            โดยมุ่งเน้นการเชื่อมต่อข้อมูลแบบ Realtime และสามารถ Monitor and
+            Control สายการผลิตได้ถูกต้องและรวดเร็ว
           </p>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 fontNav">
             10/1/2022

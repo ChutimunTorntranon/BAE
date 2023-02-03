@@ -8,6 +8,7 @@ import NewPage from "./newsComponent/NewPage";
 import Footer from "../footer/Footer";
 import GoToTop from "../component/GoToTop";
 import LinePage from "./lineComponent/LinePage";
+import Customer from "./mainCustomer/Customer";
 // import ProductPage from './ProductPage';
 function PostPage() {
   return (
@@ -18,6 +19,7 @@ function PostPage() {
       {/* <ProductPage /> */}
       {/* <ProfilePage /> */}
       <CerPage />
+      <Customer />
       <WhyPage />
       <NewPage />
       <Footer />
