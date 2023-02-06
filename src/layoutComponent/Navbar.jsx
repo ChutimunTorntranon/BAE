@@ -5,7 +5,7 @@ function Navbar() {
   let Links = [
     { name: "หน้าหลัก", link: "/" },
     { name: "บริการของเรา", link: "/Service" },
-    { name: "เกี่ยวกับเรา", link: "/" },
+    { name: "เกี่ยวกับเรา", link: "/เกี่ยวกับเรา" },
     { name: "ติดต่อเรา", link: "/" },
   ];
   let [open, setOpen] = useState(false);

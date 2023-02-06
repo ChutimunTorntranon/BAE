@@ -8,6 +8,7 @@ import EdpPage from "../pages/edpComponent/EdpPage";
 // import Navbar2 from "../layoutComponent/Navbar2";
 import ChromiumPage from "../pages/chromiumpage/ChromiumPage";
 import Stamping from "../pages/stampimg/Stamping";
+import History from "../pages/history/History";
 function Router() {
   return (
     <>
@@ -21,6 +22,7 @@ function Router() {
           <Route path="/Edp" element={<EdpPage />} />
           <Route path="/Chromium" element={<ChromiumPage />} />
           <Route path="/Stamping&welding" element={<Stamping />} />
+          <Route path="/เกี่ยวกับเรา" element={<History />} />
         </>
       </Routes>
       {/* Sawasdee */}
