@@ -3,7 +3,7 @@ import ModalImage from "react-modal-image";
 function Team2() {
   return (
     <div className="p-5">
-      <div className="container mx-auto grid grid-cols-4">
+      <div className="container mx-auto grid xl:grid-cols-4 grid-cols-1">
         <ModalImage
           small={
             "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%AA%E0%B8%B3%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%87%E0%B8%B2%E0%B8%99.jpg"
