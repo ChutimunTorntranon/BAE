@@ -9,7 +9,7 @@ import EdpPage from "../pages/edpComponent/EdpPage";
 import ChromiumPage from "../pages/chromiumpage/ChromiumPage";
 import Stamping from "../pages/stampimg/Stamping";
 import History from "../pages/history/History";
-import Contact from "../pages/contact/Contact";
+import Contact from "../contact/Contact";
 function Router() {
   return (
     <>

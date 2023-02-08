@@ -27,7 +27,7 @@ function Box2() {
       </div>
       <div className="bg-gray-100">
         <div className="container mx-auto">
-          <div className="grid grid-cols-3 p-5">
+          <div className="grid xl:grid-cols-3 grid-cols-1 p-5">
             <ModalImage
               small={
                 "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium9.jpg"

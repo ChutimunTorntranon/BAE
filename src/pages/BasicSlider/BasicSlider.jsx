@@ -29,7 +29,7 @@ function BasicSlider() {
   };
 
   return (
-    <div className="container xl:mt-[5%] xl:max-w-full xl:h-[970px] h-[500px] mt-[10%] py-16 px-4 relative group">
+    <div className="container xl:mt-[5%] xl:max-w-full xl:h-[970px] h-[500px] mt-[20%] py-16 px-4 relative group">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="w-full h-full bg-center bg-cover duration-500"

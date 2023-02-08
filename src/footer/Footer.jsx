@@ -15,31 +15,31 @@ function Footer() {
             className="mx-auto w-[120px] h-[120px] xl:w-[160px] xl:h-[160px] my-auto"
           />
         </div>
-        <div className="mx-auto container">
-          <h1 className="p-3 fontNav">
+        <div className="mx-auto container p-3">
+          <h1 className="p-2 fontNav">
             บริษัท บราเดอร์ ออโต้พาร์ทส์ แอนด์ เอ็นจิเนียริ่ง จำกัด
           </h1>
-          <div className="p-3 flex fontNav">
+          <div className="p-2 flex fontNav">
             <FaMapMarkerAlt className="w-[50px] mt-1" /> : 10 รามอินทรา 117 แยก
             2 ถนนรามอินทรา แขวงมีนบุรี เขตมีนบุรี กรุงเทพมหานคร 10510
           </div>
-          <div className="p-3 flex fontNav">
-            <AiOutlineClockCircle className="w-[50px] mt-1" />
-            เวลาทำการ : Mon - Sat : 8.00 - 17.00
+          <div className="p-2 flex fontNav">
+            <AiOutlineClockCircle className="w-[50px] mt-1" />: Mon - Sat : 8.00
+            - 17.00
           </div>
         </div>
-        <div className="mx-auto container">
-          <h1 className="p-3 fontNav">Contact Us (ติดต่อเรา)</h1>
-          <div className="p-3 flex">
+        <div className="mx-auto container p-3">
+          <h1 className="p-2 fontNav">Contact Us (ติดต่อเรา)</h1>
+          <div className="p-2 flex">
             <BsFillTelephoneFill className="w-[50px] mt-1 fontNav" /> :
-            083-101-8704 คุณ ณัฐดนัย (ฟิวส์)
+            086-306-3746 คุณสมชาติ (โอ๋)
           </div>
-          <div className="p-3 flex">
+          <div className="p-2 flex">
             <FiMail className="w-[50px] mt-1 fontNav" /> :
-            sale.software@baethai.com
+            salesmarketing@baethai.com
           </div>
-          <div className="p-3 flex">
-            <FaLine className="w-[50px] mt-1 fontNav" /> : sale.bitsoft
+          <div className="p-2 flex">
+            <FaLine className="w-[50px] mt-1 fontNav" /> : @263pijuz
           </div>
         </div>
       </div>
