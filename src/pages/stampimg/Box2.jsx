@@ -4,11 +4,11 @@ function Box2() {
   return (
     <div className="Box1 xl:mt-[20px] mt-[-1px]">
       <div className="container mx-auto">
-        <div className="heading p-5 headFont">
+        <div className="heading p-5 hFont">
           <strong>Stamping การปั๊มขึ้นรูปโลหะคืออะไร?</strong>
         </div>
         <ul className="list-disc p-5">
-          <li className="p-5 textScript">
+          <li className="p-5 tFont">
             <strong>การปั๊มขึ้นรูปโลหะ</strong>
             เป็นหนึ่งในกระบวนการผลิตชิ้นส่วนโครงสร้างและส่วนประกอบของเครื่องใช้ไฟฟ้า
             รถยนต์ เครื่องบิน ไปจนถึงชิ้นส่วนของเครื่องจักรอุตสาหกรรมหลายชนิด
@@ -18,7 +18,7 @@ function Box2() {
             จากนั้นจึงนำไปทำการประกอบกับชิ้นส่วนต่างๆ เป็นต้น โดยทั่วไปแล้ว
             การปั๊มขึ้นรูปโลหะสามารถจำแนก
           </li>
-          <li className="p-5 textScript">
+          <li className="p-5 tFont">
             <strong>ข้อดีจากการกระบวนการปั๊ม Stamping ?</strong>
             ในทุกกระบวนการที่กล่าวมาข้างต้น
             การปั๊มจะเป็นกระบวนการที่ดีที่สุดจากทั้งหมด

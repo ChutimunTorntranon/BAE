@@ -16,30 +16,29 @@ function Footer() {
           />
         </div>
         <div className="mx-auto container p-3">
-          <h1 className="p-2 fontNav">
+          <h1 className="p-2 fhFont">
             บริษัท บราเดอร์ ออโต้พาร์ทส์ แอนด์ เอ็นจิเนียริ่ง จำกัด
           </h1>
-          <div className="p-2 flex fontNav">
+          <div className="p-2 flex ftFont">
             <FaMapMarkerAlt className="w-[50px] mt-1" /> : 10 รามอินทรา 117 แยก
             2 ถนนรามอินทรา แขวงมีนบุรี เขตมีนบุรี กรุงเทพมหานคร 10510
           </div>
-          <div className="p-2 flex fontNav">
+          <div className="p-2 flex ftFont">
             <AiOutlineClockCircle className="w-[50px] mt-1" />: Mon - Sat : 8.00
             - 17.00
           </div>
         </div>
         <div className="mx-auto container p-3">
-          <h1 className="p-2 fontNav">Contact Us (ติดต่อเรา)</h1>
-          <div className="p-2 flex">
-            <BsFillTelephoneFill className="w-[50px] mt-1 fontNav" /> :
-            086-306-3746 คุณสมชาติ (โอ๋)
+          <h1 className="p-2 fhFont">Contact Us (ติดต่อเรา)</h1>
+          <div className="p-2 flex ftFont">
+            <BsFillTelephoneFill className="w-[50px] mt-1 " /> : 086-306-3746
+            คุณสมชาติ (โอ๋)
           </div>
-          <div className="p-2 flex">
-            <FiMail className="w-[50px] mt-1 fontNav" /> :
-            salesmarketing@baethai.com
+          <div className="p-2 flex ftFont">
+            <FiMail className="w-[50px] mt-1 " /> : salesmarketing@baethai.com
           </div>
-          <div className="p-2 flex">
-            <FaLine className="w-[50px] mt-1 fontNav" /> : @263pijuz
+          <div className="p-2 flex ftFont">
+            <FaLine className="w-[50px] mt-1 " /> : @263pijuz
           </div>
         </div>
       </div>

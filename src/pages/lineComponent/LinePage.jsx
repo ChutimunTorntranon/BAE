@@ -17,8 +17,8 @@ function LinePage() {
             allowfullscreen
           ></iframe>
           <div>
-            <div className="p-3 headFont">Stamping</div>
-            <div className="p-3 textScript">
+            <div className="p-3 hFont">Stamping</div>
+            <div className="p-3 tFont">
               ในระบบการผลิตในส่วนของงาน Stamping สายการผลิต 200 Ton
               เพื่อผลิตชิ้นส่วน ในกลุ่มของงาน เช่น Engine Parts,Chassis Parts
               ,Exhaust Parts
@@ -38,8 +38,8 @@ function LinePage() {
             allowfullscreen
           ></iframe>
           <div>
-            <div className="p-3 headFont">Spot welding</div>
-            <div className="p-3 textScript">
+            <div className="p-3 hFont">Spot welding</div>
+            <div className="p-3 tFont">
               การเชื่อม spot welding เป็นการเชื่อม resistance
               ชนิดหนึ่งที่เป็นที่นิยมใช้งานเชื่อมต่อแผ่นโลหะที่วาง
               ซ้อนกันโดยมีความหนาได้ถึง 3 มิลลิเมตร ในการเชื่อมนั้น
@@ -62,8 +62,8 @@ function LinePage() {
             allowfullscreen
           ></iframe>
           <div>
-            <div className="p-3 headFont">Arc welding</div>
-            <div className="p-3 textScript">
+            <div className="p-3 hFont">Arc welding</div>
+            <div className="p-3 tFont">
               Arc welding
               กระบวนการเชื่อมโดยใช้หุ่นยนต์ในระบบการผลิตในส่วนของงานเชื่อมเราใช้หุ่นยนต์ในระบบการผลิตเพื่อเพิ่มประสิทธิภาพในการผลิตชิ้นส่วนให้มีความถูกต้องตรงตามความต้องการและมาตราฐานที่ลูกค้ากำหนดของลูกค้า
             </div>

@@ -6,7 +6,7 @@ import GoToTop from "../../component/GoToTop";
 
 function ProductPage() {
   return (
-    <div className="mt-[20%] xl:mt-[7%] ">
+    <div className="mt-[20%] xl:mt-[6%] ">
       <div className="w-full h-[200px] bg-indigo-600">
         <div className="container grid mx-auto h-full">
           <div className="mx-auto my-auto Zince">SERVICE</div>

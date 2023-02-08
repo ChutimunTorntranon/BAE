@@ -12,8 +12,8 @@ function Component() {
           />
         </div>
         <div className="p-5 grid">
-          <div className="xl:my-36 textProfile">
-            <div className="text-[45px] mx-auto my-auto headFont">
+          <div className="xl:my-36 tFont">
+            <div className="text-[45px] mx-auto my-auto hFont">
               เกี่ยวกับเรา
             </div>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;บริษัท บราเดอร์ ออโต้พาร์ทส์

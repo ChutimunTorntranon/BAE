@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600&family=Noto+Sans+Thai:wght@200;300;400;500&display=swap");
 
 * {
   box-sizing: border-box;
@@ -125,4 +126,39 @@ img {
   background: -webkit-linear-gradient(#bbb, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+/* allpage */
+.hFont {
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.tFont {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* footer */
+.fhFont {
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.ftFont {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* newpage */
+.nhFont {
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nfFont {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 }

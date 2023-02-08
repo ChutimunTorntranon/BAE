@@ -3,37 +3,37 @@ import "../lineComponent/LineStyle.css";
 function Team() {
   return (
     <div className="container mx-auto p-5">
-      <div className="p-5 text-center font-bold text-[50px] headFont">
+      <div className="p-5 text-center font-bold text-[50px] hFont">
         คณะกรรมการผู้บริหาร
       </div>
       <div className="grid xl:grid-cols-3 grid-cols-1 p-5">
-        <div>
+        <div className="hover:shadow-2xl ease-in duration-500">
           <img
             src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/mr.parada.png"
             alt=""
-            className="w-[300px] h-[300px] mx-auto  hover:scale-125 ease-in duration-500 rounded-lg"
+            className="w-[300px] h-[300px] mx-auto"
           />
-          <div className="p-3 text-center textCEO">K.Parada Bunnag</div>
-          <div className="p-3 text-center textScript1">
+          <div className="p-3 text-center ftFont">K.Parada Bunnag</div>
+          <div className="p-3 text-center ftFont">
             Chief Executive Officer (CEO)
           </div>
         </div>
-        <div>
+        <div className="hover:shadow-2xl ease-in duration-500">
           <img
             src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/miss.patcharee.png"
             alt=""
-            className="w-[300px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 rounded-lg"
+            className="w-[300px] h-[300px] mx-auto "
           />
           <div className="p-3 text-center textCEO">K.Patcharee Bunnag</div>
           <div className="p-3 text-center textScript1">
             Chief Operating Officer (COO)
           </div>
         </div>
-        <div>
+        <div className="hover:shadow-2xl ease-in duration-500">
           <img
             src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P'Bhon.jpg"
             alt=""
-            className="w-[300px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 rounded-lg"
+            className="w-[300px] h-[300px] mx-auto "
           />
 
           <div className="p-3 text-center textCEO">K.Bhon Bunnag </div>
