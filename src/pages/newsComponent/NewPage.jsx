@@ -1,16 +1,16 @@
 import React from "react";
 import "./NewStyle.css";
-import "../lineComponent/LineStyle.css";
+
 function NewPage() {
   return (
     <div className="container mx-auto p-3">
       <div className="">
-        <h1 className="p-3 headFont">ข่าวสารเกี่ยวกับเรา</h1>
+        <h1 className="p-3 fontTitle">ข่าวสารเกี่ยวกับเรา</h1>
       </div>
 
-      <div class="p-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div class="p-3 max-w-sm bg-white border border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700 hover:shadow-2xl duration-300 ease-in">
         <img
-          className="rounded-t-lg"
+          className="rounded-t-lg mx-auto"
           src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/edit-logo.png"
           alt=""
         />
