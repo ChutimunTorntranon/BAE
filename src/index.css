@@ -162,3 +162,9 @@ img {
   font-size: 20px;
   font-weight: 300;
 }
+
+.navFont {
+  font-family: "Kanit", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}

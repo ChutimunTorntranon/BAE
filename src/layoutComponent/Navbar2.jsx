@@ -8,8 +8,17 @@ function Navbar2() {
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold">LOGO</h2>
+            <a href="/">
+              <div className="flex">
+                <img
+                  src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/LogoBaepng.png"
+                  alt=""
+                  className="w-[100px] h-[100px]"
+                />
+                <h2 className="text-[15px] xl:text-xl font-bold xl:mt-5 mt-[30px] ml-5">
+                  Brother Autoparts <br />& Engineering co.,ltd
+                </h2>
+              </div>
             </a>
             <div className="md:hidden">
               <button
@@ -56,17 +65,17 @@ function Navbar2() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Home</a>
+              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+                <a href="/">หน้าหลัก</a>
               </li>
-              <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Blog</a>
+              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+                <a href="/Service">บริการของเรา</a>
               </li>
-              <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">About US</a>
+              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+                <a href="/เกี่ยวกับเรา">เกี่ยวกับเรา</a>
               </li>
-              <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Contact US</a>
+              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+                <a href="/ติดต่อเรา">ติดต่อเรา</a>
               </li>
             </ul>
           </div>
