@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "../layoutComponent/Navbar";
+// import Navbar from "../layoutComponent/Navbar";
 import PostPage from "../pages/PostPage";
 import ZinceProduct from "../pages/zincePage/ZinceProduct";
 import ProductPage from "../pages/productPage/ProductPage";
 import EdpPage from "../pages/edpComponent/EdpPage";
-// import Navbar2 from "../layoutComponent/Navbar2";
+import Navbar2 from "../layoutComponent/Navbar2";
 import ChromiumPage from "../pages/chromiumpage/ChromiumPage";
 import Stamping from "../pages/stampimg/Stamping";
 import History from "../pages/history/History";
@@ -13,8 +13,8 @@ import Contact from "../contact/Contact";
 function Router() {
   return (
     <>
-      <Navbar />
-      {/* <Navbar2 /> */}
+      {/* <Navbar /> */}
+      <Navbar2 />
       <Routes>
         <>
           <Route path="/" element={<PostPage />} />

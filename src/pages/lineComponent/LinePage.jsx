@@ -7,8 +7,8 @@ function LinePage() {
       <div className="grid xl:grid-cols-3 grid-cols-1">
         <div>
           <iframe
-            className="rounded-3xl my-10 mx-auto"
-            width="450"
+            className="rounded-3xl my-10 mx-auto xl:w-[450px]"
+            width="350"
             height="255"
             src="https://www.youtube.com/embed/_U7uwcWna0g"
             title="YouTube video player"
@@ -28,8 +28,8 @@ function LinePage() {
         </div>
         <div>
           <iframe
-            className="rounded-3xl my-10 mx-auto"
-            width="450"
+            className="rounded-3xl my-10 mx-auto xl:w-[450px]"
+            width="350"
             height="255"
             src="https://www.youtube.com/embed/AUvTOKVzl20"
             title="YouTube video player"
@@ -52,8 +52,8 @@ function LinePage() {
         </div>
         <div>
           <iframe
-            className="rounded-3xl my-10 mx-auto"
-            width="450"
+            className="rounded-3xl my-10 mx-auto xl:w-[450px]"
+            width="350"
             height="255"
             src="https://www.youtube.com/embed/QCkl9RMd5-s?start=45"
             title="YouTube video player"

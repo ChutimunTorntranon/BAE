@@ -13,17 +13,17 @@ import Customer from "./mainCustomer/Customer";
 function PostPage() {
   return (
     <div>
-      <BasicSlider />
+      {/* <BasicSlider />
       <LinePage />
-      <ServicePage />
+      <ServicePage /> */}
       {/* <ProductPage /> */}
       {/* <ProfilePage /> */}
-      <CerPage />
+      {/* <CerPage />
       <Customer />
       <WhyPage />
       <NewPage />
       <Footer />
-      <GoToTop />
+      <GoToTop /> */}
     </div>
   );
 }
