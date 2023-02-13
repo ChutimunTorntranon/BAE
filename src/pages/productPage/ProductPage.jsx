@@ -6,14 +6,14 @@ import GoToTop from "../../component/GoToTop";
 
 function ProductPage() {
   return (
-    <div className="mt-[20%] xl:mt-[6%] ">
+    <div className="">
       <div className="w-full h-[200px] bg-indigo-600">
         <div className="container grid mx-auto h-full">
           <div className="mx-auto my-auto Zince">SERVICE</div>
         </div>
-        <div className="grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container mx-auto p-3">
+        <div className="grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto p-1">
           <Link to="/Stamping&welding">
-            <div className="image cursor-pointer">
+            <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
               <img
                 src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Parts04.png"
                 alt="zinc"
@@ -25,7 +25,7 @@ function ProductPage() {
             </div>
           </Link>
           <Link to="/Zinc">
-            <div className="image cursor-pointer">
+            <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
               <img
                 src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Parts04.png"
                 alt="zinc"
@@ -35,7 +35,7 @@ function ProductPage() {
             </div>
           </Link>
           <Link to="/Edp">
-            <div className="image cursor-pointer">
+            <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
               <img
                 src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-09.png"
                 alt="edp"
@@ -45,7 +45,7 @@ function ProductPage() {
             </div>
           </Link>
           <Link to="/Chromium">
-            <div className="image cursor-pointer">
+            <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
               <img
                 src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium1.jpg"
                 alt="Chromium"
