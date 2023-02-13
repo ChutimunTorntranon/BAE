@@ -15,8 +15,8 @@ function ProductPage() {
           <Link to="/Stamping&welding">
             <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
               <img
-                src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Parts04.png"
-                alt="zinc"
+                src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P-All.jpg"
+                alt="Stamp & welding"
                 className="image__img"
               ></img>
               <div className="image__overlay image__overlay--blur">

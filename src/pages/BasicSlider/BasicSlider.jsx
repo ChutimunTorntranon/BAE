@@ -4,11 +4,15 @@ import { RxDotFilled } from "react-icons/rx";
 function BasicSlider() {
   const slides = [
     {
-      url: "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/p-nut-video-01.jpg",
+      url: "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/newImg/IMG_3292.jpg",
     },
-    { url: "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/158607.jpg" },
-    { url: "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/158598.jpg" },
-    { url: "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/158603.jpg" },
+    {
+      url: "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/newImg/IMG_1576.jpg",
+    },
+    {
+      url: "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/newImg/IMG_1572.jpg",
+    },
+    { url: "" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

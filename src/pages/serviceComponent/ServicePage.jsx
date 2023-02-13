@@ -12,9 +12,9 @@ function ServicePage() {
 
       <div className="grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container mx-auto p-3">
         <Link to="/Stamping&welding">
-          <div className="image cursor-pointer">
+          <div className="xl:w-[380px] xl:h-[470px] relative cursor-pointer">
             <img
-              src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Parts04.png"
+              src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P-All.jpg"
               alt="Zinc"
               className="image__img"
             ></img>

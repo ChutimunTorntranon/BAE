@@ -1,5 +1,5 @@
 import React from "react";
-
+import ModalImage from "react-modal-image";
 function Box2() {
   return (
     <div className="Box1 xl:mt-[20px] mt-[-1px]">
@@ -39,13 +39,13 @@ function Box2() {
       </div>
       <div className="bg-gray-100">
         <div className="container mx-auto">
-          {/* <div className="grid grid-cols-3 p-5">
+          <div className="grid grid-cols-3 p-5">
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium9.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P01.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium9.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P01.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
@@ -100,7 +100,7 @@ function Box2() {
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
