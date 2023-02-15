@@ -7,9 +7,11 @@ import GoToTop from "../../component/GoToTop";
 function ProductPage() {
   return (
     <div className="">
-      <div className="w-full h-[200px] bg-indigo-600">
+      <div className="w-full xl:h-[200px] h-[120px] bg-indigo-600">
         <div className="container grid mx-auto h-full">
-          <div className="mx-auto my-auto Zince">SERVICE</div>
+          <div className="mx-auto my-auto Zince xl:text-[50px] text-[22px]">
+            SERVICE
+          </div>
         </div>
         <div className="grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto p-1">
           <Link to="/Stamping&welding">

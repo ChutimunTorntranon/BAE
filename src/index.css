@@ -116,7 +116,6 @@ img {
 }
 
 .Zince {
-  font-size: 45px;
   font-weight: 700;
   background: -webkit-linear-gradient(#ffffff, #bbb);
   -webkit-background-clip: text;
@@ -128,43 +127,12 @@ img {
   -webkit-text-fill-color: transparent;
 }
 /* allpage */
-.hFont {
+.Font1 {
   font-family: "Kanit", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
 }
-.tFont {
+.Font2 {
   font-family: "Noto Sans Thai", sans-serif;
-  font-size: 20px;
-  font-weight: 300;
 }
-
-/* footer */
-.fhFont {
-  font-family: "Kanit", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-}
-.ftFont {
-  font-family: "Noto Sans Thai", sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-/* newpage */
-.nhFont {
-  font-family: "Kanit", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-}
-.nfFont {
-  font-family: "Noto Sans Thai", sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.navFont {
-  font-family: "Kanit", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
+.Font3 {
+  font-family: "Prompt", sans-serif;
 }

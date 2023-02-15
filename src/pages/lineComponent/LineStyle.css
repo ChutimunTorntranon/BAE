@@ -3,29 +3,19 @@
 
 .headFont {
   font-family: "Prompt", sans-serif;
-  font-weight: 900;
-  font-size: 30px;
 }
 
 .textScript {
   font-family: "Prompt", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
 }
 .textScript1 {
   font-family: "Prompt", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
 }
 .textProfile {
   font-family: "Prompt", sans-serif;
-  font-weight: 400;
-  font-size: 25px;
   /* white-space: wrap; */
   display: inline-block;
 }
 .textCEO {
   font-family: "Prompt", sans-serif;
-  font-weight: 700;
-  font-size: 25px;
 }

@@ -6,7 +6,7 @@ import "../lineComponent/LineStyle.css";
 function ServicePage() {
   return (
     <div className="container mx-auto">
-      <div className="hFont container mx-auto xl:text-center text-center p-3">
+      <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[25px] text-center">
         OUR SERVICE
       </div>
 

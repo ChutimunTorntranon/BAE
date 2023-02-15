@@ -5,11 +5,11 @@ function Box2() {
   return (
     <div className="Box1 xl:mt-[20px] mt-[-1px]">
       <div className="container mx-auto">
-        <div className="heading p-5 hFont">
+        <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[23px] text-center">
           <strong>EDP คืออะไร? ดีกว่าสีพื้นทั่วไปอย่างไร?</strong>
         </div>
         <ul className="list-disc p-5">
-          <li className="p-5 tFont">
+          <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
             <strong>EDP ย่อมาจาก Electro Deposition Painting</strong> คือ
             เทคโนโลยีการชุบโลหะ ที่อาศัยกลไกทางไฟฟ้า
             วิธีนี้จะได้ผิวเคลือบที่เรียบ สามารถทนต่อการกัดกร่อนได้สูง
@@ -19,7 +19,7 @@ function Box2() {
             ชุบโลหะด้วยไฟฟ้าสามารถชุบวัสดุได้หลากหลาย ทั้งเหล็ก อลูมิเนียม ซิงค์
             ฯลฯ
           </li>
-          <li className="p-5 tFont">
+          <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
             <strong>ข้อดีของการชุบ EDP ?</strong>
             <br></br>1. สามารถชุบผิวโลหะเรียบความหนาสม่ำเสมอได้ เคลือบได้ทุกส่วน
             ทั้งร่อง หรือซอกลึกที่ปกติ สเปรย์ฉีดได้ไม่ทั่วถึง<br></br>2. สามารถ

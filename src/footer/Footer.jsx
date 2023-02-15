@@ -16,28 +16,28 @@ function Footer() {
           />
         </div>
         <div className="mx-auto container p-3">
-          <h1 className="p-2 fhFont">
+          <h1 className="p-2 Font1">
             บริษัท บราเดอร์ ออโต้พาร์ทส์ แอนด์ เอ็นจิเนียริ่ง จำกัด
           </h1>
-          <div className="p-2 flex ftFont">
+          <div className="p-2 flex Font1">
             <FaMapMarkerAlt className="w-[50px] mt-1" /> : 10 รามอินทรา 117 แยก
             2 ถนนรามอินทรา แขวงมีนบุรี เขตมีนบุรี กรุงเทพมหานคร 10510
           </div>
-          <div className="p-2 flex ftFont">
+          <div className="p-2 flex Font1">
             <AiOutlineClockCircle className="w-[50px] mt-1" />: Mon - Sat : 8.00
             - 17.00
           </div>
         </div>
         <div className="mx-auto container p-3">
-          <h1 className="p-2 fhFont">Contact Us (ติดต่อเรา)</h1>
-          <div className="p-2 flex ftFont">
+          <h1 className="p-2 Font1">Contact Us (ติดต่อเรา)</h1>
+          <div className="p-2 flex Font1">
             <BsFillTelephoneFill className="w-[50px] mt-1 " /> : 086-306-3746
             คุณสมชาติ (โอ๋)
           </div>
-          <div className="p-2 flex ftFont">
+          <div className="p-2 flex Font1">
             <FiMail className="w-[50px] mt-1 " /> : salesmarketing@baethai.com
           </div>
-          <div className="p-2 flex ftFont">
+          <div className="p-2 flex Font1">
             <FaLine className="w-[50px] mt-1 " /> : @263pijuz
           </div>
         </div>

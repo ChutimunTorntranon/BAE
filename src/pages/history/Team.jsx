@@ -2,43 +2,63 @@ import React from "react";
 import "../lineComponent/LineStyle.css";
 function Team() {
   return (
-    <div className="container mx-auto p-5">
-      <div className="p-5 text-center font-bold text-[50px] hFont">
+    <div className="container mx-auto p-1">
+      <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[25px] text-center">
         คณะกรรมการผู้บริหาร
       </div>
-      <div className="grid xl:grid-cols-3 grid-cols-1 p-5">
+      <div className="grid xl:grid-cols-4 grid-cols-1 p-2">
         <div className="hover:shadow-2xl ease-in duration-500">
           <img
             src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/mr.parada.png"
             alt=""
-            className="w-[300px] h-[300px] mx-auto"
+            className="2xl:w-[300px] 2xl:h-[300px] w-[200px] h-[200px] mx-auto"
           />
-          <div className="p-3 text-center ftFont">K.Parada Bunnag</div>
-          <div className="p-3 text-center ftFont">
-            Chief Executive Officer (CEO)
+          <div className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[22px] text-center">
+            K.Parada Bunnag
+          </div>
+          <div className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[22px] text-center">
+            Managing Director
           </div>
         </div>
         <div className="hover:shadow-2xl ease-in duration-500">
           <img
             src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/miss.patcharee.png"
             alt=""
-            className="w-[300px] h-[300px] mx-auto "
+            className="2xl:w-[300px] 2xl:h-[300px] w-[200px] h-[200px] mx-auto"
           />
-          <div className="p-3 text-center textCEO">K.Patcharee Bunnag</div>
-          <div className="p-3 text-center textScript1">
-            Chief Operating Officer (COO)
+          <div className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[22px] text-center">
+            K.Patcharee Bunnag
+          </div>
+          <div className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[22px] text-center">
+            Vice Managing Director
+          </div>
+        </div>
+        <div className="hover:shadow-2xl ease-in duration-500">
+          <img
+            src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/K.phob.png"
+            alt=""
+            className="2xl:w-[300px] 2xl:h-[300px] w-[200px] h-[200px] mx-auto"
+          />
+
+          <div className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[22px] text-center">
+            K.Bhop Bunnag{" "}
+          </div>
+          <div className="p-3 Font1 font-bold xl:text-[20px] xl:text-center text-[22px] text-center">
+            Asst.Deputy Managing Director
           </div>
         </div>
         <div className="hover:shadow-2xl ease-in duration-500">
           <img
             src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P'Bhon.jpg"
             alt=""
-            className="w-[300px] h-[300px] mx-auto "
+            className="2xl:w-[300px] 2xl:h-[300px] w-[200px] h-[200px] mx-auto"
           />
 
-          <div className="p-3 text-center textCEO">K.Bhon Bunnag </div>
-          <div className="p-3 text-center textScript1">
-            Chief Technology Officer (CTO)
+          <div className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[22px] text-center">
+            K.Bhon Bunnag{" "}
+          </div>
+          <div className="p-3 Font1 font-bold xl:text-[20px] xl:text-center text-[22px] text-center">
+            Asst.Deputy Managing Director
           </div>
         </div>
       </div>

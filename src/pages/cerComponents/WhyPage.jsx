@@ -3,7 +3,7 @@ import "./../../layoutComponent/Navbar.css";
 function WhyPage() {
   return (
     <div className="container mx-auto">
-      <div className="p-3 text-center hFont">
+      <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[23px] text-center">
         ทำไมต้องคุณถึงต้องมาร่วมงานกับเรา?
       </div>
       <div className="grid xl:grid-cols-3 grid-cols-1 gap-3">
@@ -12,10 +12,10 @@ function WhyPage() {
             src="https://img.freepik.com/free-photo/businessmen-businesswomen-meeting-brainstorming-ideas_7861-3065.jpg?w=1800&t=st=1673947901~exp=1673948501~hmac=b9ba11acefffc18205419024bc873a2a83850eefd24c4590939f47fe9760c3c4"
             alt=""
           />
-          <h1 className="p-3 text-center xl:text-left hFont mx-auto">
+          <h1 className="p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[25px] text-center">
             Creative Thinking
           </h1>
-          <p className="p-3 tFont">
+          <p className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
             {" "}
             บริษัทฯ ได้จัดอบรมสัมนาหลักสูตร “Creative and Innovative Thinking”
             ให้กับพนักงานฝ่ายบริหาร
@@ -32,10 +32,10 @@ function WhyPage() {
             alt=""
             className="h-[285px] w-[700px]"
           />
-          <h1 className="p-3 text-center xl:text-left hFont mx-auto">
+          <h1 className="p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[25px] text-center">
             Creative Thinking
           </h1>
-          <p className="p-3 tFont">
+          <p className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
             {" "}
             บริษัทฯ ได้จัดอบรมสัมนาหลักสูตร “Creative and Innovative Thinking”
             ให้กับพนักงานฝ่ายบริหาร
@@ -51,10 +51,10 @@ function WhyPage() {
             src="https://img.freepik.com/free-photo/group-happy-young-asia-business-coworkers-using-laptop-team-casual-meeting-startup-project-discussion-cafe-restaurant_7861-3035.jpg?w=1800&t=st=1674005065~exp=1674005665~hmac=ee0296d11118db14e6f998d13018ce9dd1eaeb5930bdc0d4df6d6caf98a4d7a0"
             alt=""
           />
-          <h1 className="p-3 text-center xl:text-left hFont mx-auto">
+          <h1 className="p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[25px] text-center">
             Monthly update
           </h1>
-          <p className="p-3 tFont">
+          <p className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
             {" "}
             บริษัทฯ
             ได้จัดให้มีการอบรมพนักงานที่พัฒนาขึ้นโดยผู้สอนเป็นบุคคลภายในองค์กรที่มีความสามารถถ่ายทอดความรู้

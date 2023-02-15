@@ -16,7 +16,7 @@ function Navbar2() {
                   className="w-[100px] h-[100px]"
                 />
                 <h2 className="text-[15px] xl:text-xl font-bold xl:mt-5 mt-[30px] ml-5">
-                  Brother Autoparts <br />& Engineering co.,ltd
+                  Brother Auto&nbsp;parts <br />& Engineering Co.,Ltd
                 </h2>
               </div>
             </a>
@@ -66,16 +66,36 @@ function Navbar2() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
-                <a href="/">หน้าหลัก</a>
+                <a
+                  href="/"
+                  className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[20px] text-center"
+                >
+                  หน้าหลัก
+                </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
-                <a href="/Service">บริการของเรา</a>
+                <a
+                  href="/Service"
+                  className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[20px] text-center"
+                >
+                  บริการของเรา
+                </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
-                <a href="/เกี่ยวกับเรา">เกี่ยวกับเรา</a>
+                <a
+                  href="/เกี่ยวกับเรา"
+                  className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[20px] text-center"
+                >
+                  เกี่ยวกับเรา
+                </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
-                <a href="/ติดต่อเรา">ติดต่อเรา</a>
+                <a
+                  href="/ติดต่อเรา"
+                  className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[20px] text-center"
+                >
+                  ติดต่อเรา
+                </a>
               </li>
             </ul>
           </div>

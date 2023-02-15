@@ -3,7 +3,9 @@ import React from "react";
 function Customer() {
   return (
     <div className="container mx-auto p-5">
-      <div className="text-center hFont">Main Customer</div>
+      <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[25px] text-center">
+        Main Customer
+      </div>
       <div className="grid xl:grid-cols-3 container mx-auto">
         <div>
           <img
