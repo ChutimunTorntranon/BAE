@@ -10,12 +10,13 @@ function LinePage() {
             className="rounded-3xl my-10 mx-auto xl:w-[450px]"
             width="350"
             height="255"
-            src="https://www.youtube.com/embed/aKyZu7ayEnc"
+            src="https://www.youtube.com/embed/IsCIYc38-WQ"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
+
           <div>
             <div className="p-3 hFont">Stamping</div>
             <div className="p-3 tFont">
@@ -31,7 +32,7 @@ function LinePage() {
             className="rounded-3xl my-10 mx-auto xl:w-[450px]"
             width="350"
             height="255"
-            src="https://www.youtube.com/embed/pcRCEHXrwyw"
+            src="https://www.youtube.com/embed/yRI3iiSgd6U"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -55,12 +56,13 @@ function LinePage() {
             className="rounded-3xl my-10 mx-auto xl:w-[450px]"
             width="350"
             height="255"
-            src="https://www.youtube.com/embed/v6OUbchctV0"
+            src="https://www.youtube.com/embed/qPBHDenv5ug"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
+
           <div>
             <div className="p-3 hFont">Arc welding</div>
             <div className="p-3 tFont">

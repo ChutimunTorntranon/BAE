@@ -1,18 +1,15 @@
 import React from "react";
 import "../lineComponent/LineStyle.css";
+import Slider from "./Slider";
 function Component() {
   return (
     <div className="container mx-auto p-5">
       <div className="grid xl:grid-cols-2 grid-cols-1">
         <div className="p-5 xl:my-16 my-4">
-          <img
-            src="https://img.freepik.com/free-photo/industrial-park-factory-building-warehouse_1417-1940.jpg?w=996&t=st=1675646078~exp=1675646678~hmac=45853428c15b05fa2ebba77ece81ab1a0cba9e08bb236fffcb088ed628b8e2c9"
-            alt=""
-            className="shadow-black shadow-2xl"
-          />
+          <Slider />
         </div>
         <div className="p-5 grid">
-          <div className="xl:my-36 tFont">
+          <div className="xl:my-64 tFont">
             <div className="text-[45px] mx-auto my-auto hFont">
               เกี่ยวกับเรา
             </div>

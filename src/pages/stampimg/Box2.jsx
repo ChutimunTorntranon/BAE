@@ -42,60 +42,60 @@ function Box2() {
           <div className="grid grid-cols-3 p-5">
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P01.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P05.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P01.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P05.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium8.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P02.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium8.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P02.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium7.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P03.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium7.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P03.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium6.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P06.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium6.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P06.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium5.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P07.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium5.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P07.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
             />
             <ModalImage
               small={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium4.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P08.jpg"
               }
               large={
-                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium4.jpg"
+                "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P08.jpg"
               }
               alt=""
               className="w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3"
