@@ -21,7 +21,7 @@ function ServicePage() {
         <Link to="/Stamping&welding">
           <div className="xl:w-[380px] xl:h-[470px] relative cursor-pointer">
             <img
-              src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/P-All.jpg"
+              src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/stamppppp.jpg"
               alt="Zinc"
               className="image__img"
             ></img>

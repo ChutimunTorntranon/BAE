@@ -1,10 +1,15 @@
 import React from "react";
-
+import { useTranslation } from "react-i18next";
 function Customer() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
   return (
     <div className="container mx-auto p-5">
       <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[25px] text-center">
-        Main Customer
+        {t("customer")}
       </div>
       <div className="grid xl:grid-cols-3 container mx-auto">
         <div>

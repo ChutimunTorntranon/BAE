@@ -1,12 +1,17 @@
 import React from "react";
 import "./NewStyle.css";
-
+import { useTranslation } from "react-i18next";
 function NewPage() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
   return (
     <div className="container mx-auto p-3">
       <div className="">
         <h1 className="p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[25px] text-center">
-          ข่าวสารเกี่ยวกับเรา
+          {t("News")}
         </h1>
       </div>
 
@@ -23,10 +28,7 @@ function NewPage() {
           </h5>
 
           <p className="p-1 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
-            ใช้ในสายการผลิตอุตสาหกรรมที่ก้าวสู่ ยุคอุตสาหกรรม 4.0
-            เข้ามาสนับสนุนการพัฒนาโรงงานให้เป็น Smart Factory
-            โดยมุ่งเน้นการเชื่อมต่อข้อมูลแบบ Realtime และสามารถ Monitor and
-            Control สายการผลิตได้ถูกต้องและรวดเร็ว
+            {t("Tnews")}
           </p>
           <p className="p-1 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
             10/1/2022

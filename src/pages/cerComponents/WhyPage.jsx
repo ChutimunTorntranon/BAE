@@ -1,10 +1,16 @@
 import React from "react";
 import "./../../layoutComponent/Navbar.css";
+import { useTranslation } from "react-i18next";
 function WhyPage() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
   return (
     <div className="container mx-auto">
       <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[23px] text-center">
-        ทำไมต้องคุณถึงต้องมาร่วมงานกับเรา?
+        {t("Why")}
       </div>
       <div className="grid xl:grid-cols-3 grid-cols-1 gap-3">
         <div className="hover:shadow-2xl duration-500 ease-in">
@@ -17,12 +23,7 @@ function WhyPage() {
           </h1>
           <p className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
             {" "}
-            บริษัทฯ
-            มีการอบรมพนักงานใหม่เพื่อเพิ่มขีดความสามารถของบุคลากรให้สามารถแข่งขันกับคนอื่นๆ
-            หรือบริษัทคู่แข่งได้ เพิ่มศักยภาพขององค์กรให้สูงขึ้น
-            ถ่ายทอดองค์ความรู้ใหม่ๆ ให้แก่พนักงาน
-            เพื่อต้องการลดต้นทุนในการประกอบการให้มากที่สุด
-            ด้วยวิธีเพิ่มศักยภาพการทำงานให้ดีขึ้น
+            {t("Why1")}
           </p>
         </div>
         <div className="hover:shadow-2xl duration-500 ease-in">
@@ -36,13 +37,7 @@ function WhyPage() {
           </h1>
           <p className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
             {" "}
-            บริษัทฯ ได้จัดอบรมสัมนาหลักสูตร “Creative and Innovative Thinking”
-            ให้กับพนักงานฝ่ายบริหาร
-            ซึ่งเป็นหลักสูตรที่สอนเกี่ยวกับการคิดนอกกรอบอย่างสร้างสรรค์ เช่น
-            เทคนิคการพัฒนาความคิดสร้างสรรค์
-            วิธีการระดมสมองเพื่อให้ได้มาซึ่งความคิดสร้างสรรค์ การคิดเชิงบวก
-            Growth Mindset และ “Play for Performance”
-            ซึ่งเหมาะกับการพัฒนาบุคลากรให้กับทุกฝ่าย/แผนก
+            {t("Why2")}
           </p>
         </div>
         <div className="hover:shadow-2xl duration-500 ease-in">
@@ -55,9 +50,7 @@ function WhyPage() {
           </h1>
           <p className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
             {" "}
-            บริษัทฯ
-            ได้จัดให้มีการอบรมพนักงานที่พัฒนาขึ้นโดยผู้สอนเป็นบุคคลภายในองค์กรที่มีความสามารถถ่ายทอดความรู้
-            ซึ่งมีเป้าหมายเพื่อรักษามาตรฐานการทำงานและยกระดับความสามารถของบุคคลากรในองค์กรได้
+            {t("Why3")}
           </p>
         </div>
       </div>

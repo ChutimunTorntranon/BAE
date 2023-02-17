@@ -1,39 +1,32 @@
 import React from "react";
 import ModalImage from "react-modal-image";
+import { useTranslation } from "react-i18next";
 function Box2() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
   return (
     <div className="Box1 xl:mt-[20px] mt-[-1px]">
       <div className="container mx-auto">
         <div className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
-          <strong>Stamping การปั๊มขึ้นรูปโลหะคืออะไร?</strong>
+          <strong>{t("Hstamp")}</strong>
         </div>
         <ul className="list-disc p-5">
           <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
-            <strong>การปั๊มขึ้นรูปโลหะ</strong>
-            เป็นหนึ่งในกระบวนการผลิตชิ้นส่วนโครงสร้างและส่วนประกอบของเครื่องใช้ไฟฟ้า
-            รถยนต์ เครื่องบิน ไปจนถึงชิ้นส่วนของเครื่องจักรอุตสาหกรรมหลายชนิด
-            เป็นขั้นตอนที่เกิดขึ้นหลังจากกระบวนการสกัด การหล่อและบดอัดผงโลหะ
-            ซึ่งเมื่อผ่านการขึ้นรูปโลหะ จากโรงงานปั๊มขึ้นรูปโลหะแล้ว
-            ก็จะเข้าสู่กระบวนการเจียร ขัด ทาสี จนได้ชิ้นงานโลหะ
-            จากนั้นจึงนำไปทำการประกอบกับชิ้นส่วนต่างๆ เป็นต้น โดยทั่วไปแล้ว
-            การปั๊มขึ้นรูปโลหะสามารถจำแนก
+            <strong>{t("Tstamp1")}</strong>&nbsp;
+            {t("Tstamp2")}
           </li>
           <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
-            <strong>ข้อดีจากการกระบวนการปั๊ม Stamping ?</strong>
-            ในทุกกระบวนการที่กล่าวมาข้างต้น
-            การปั๊มจะเป็นกระบวนการที่ดีที่สุดจากทั้งหมด
-            มีข้อได้เปรียบที่เหนือกว่า ไม่ว่าจะเป็นการหล่อ (casting)
-            การทุบขึ้นรูป (forging) และการกัดแต่ง (machining)
-            ซึ่งแบ่งข้อได้เปรียบออกเป็นดังนี้
-            <li>ช่วยให้การขึ้นรูปชิ้นงานที่ซับซ้อนได้ง่ายขึ้นกว่าวิธีอื่นๆ</li>
-            <li>หลังปั๊มแล้วไม่จำเป็นต้องทำการตกแต่งชิ้นงานแต่อย่างใด</li>
-            <li>
-              ชิ้นงานที่ผ่านการปั๊มจะเท่ากันทุกชิ้น
-              สังเกตได้จากการนำเอาชิ้นงานมาประกอบ
-            </li>
-            <li>มีความแข็งแรงเพิ่มมากขึ้น รวมถึงคุณสมบัติทางกลอื่นๆ</li>
-            <li>ตัวชิ้นงานมีน้ำหนักเบามาก</li>
-            <li>อัตราการสามารถทำได้ในปริมาณสูง</li>
+            <strong>{t("Hstamp1")}</strong>&nbsp;
+            {t("Tstamp3")}
+            <li>{t("Tstamp4")}</li>
+            <li>{t("Tstamp5")}</li>
+            <li>{t("Tstamp6")}</li>
+            <li>{t("Tstamp7")}</li>
+            <li>{t("Tstamp8")}</li>
+            <li>{t("Tstamp9")}</li>
           </li>
         </ul>
       </div>
