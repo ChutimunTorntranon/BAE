@@ -3,11 +3,18 @@ import "./Servicepage.css";
 import { Link } from "react-router-dom";
 import "../../layoutComponent/Navbar.css";
 import "../lineComponent/LineStyle.css";
+import { useTranslation } from "react-i18next";
 function ServicePage() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
+
   return (
     <div className="container mx-auto">
       <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[25px] text-center">
-        OUR SERVICE
+        {t("ourservice")}
       </div>
 
       <div className="grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container mx-auto p-3">

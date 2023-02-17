@@ -1,8 +1,12 @@
 import React, { useState } from "react";
-
+import { useTranslation } from "react-i18next";
 function Navbar2() {
   const [navbar, setNavbar] = useState(false);
-
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
   return (
     <nav className="w-full bg-white shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
@@ -68,34 +72,40 @@ function Navbar2() {
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <a
                   href="/"
-                  className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[20px] text-center"
+                  className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center"
                 >
-                  หน้าหลัก
+                  {t("home")}
                 </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <a
                   href="/Service"
-                  className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[20px] text-center"
+                  className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center"
                 >
-                  บริการของเรา
+                  {t("service")}
                 </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <a
                   href="/เกี่ยวกับเรา"
-                  className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[20px] text-center"
+                  className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center"
                 >
-                  เกี่ยวกับเรา
+                  {t("aboutme")}
                 </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <a
                   href="/ติดต่อเรา"
-                  className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[20px] text-center"
+                  className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center"
                 >
-                  ติดต่อเรา
+                  {t("nav4")}
                 </a>
+              </li>
+              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+                <button onClick={() => handleChangeLng("th")}>TH</button>
+              </li>
+              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+                <button onClick={() => handleChangeLng("en")}>EN</button>
               </li>
             </ul>
           </div>
