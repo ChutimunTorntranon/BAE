@@ -1,10 +1,16 @@
 import React from "react";
 import "../lineComponent/LineStyle.css";
+import { useTranslation } from "react-i18next";
 function Team() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
   return (
     <div className="container mx-auto p-1">
       <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[25px] text-center">
-        คณะกรรมการผู้บริหาร
+        {t("ceo")}
       </div>
       <div className="grid xl:grid-cols-4 grid-cols-1 p-2">
         <div className="hover:shadow-2xl ease-in duration-500">

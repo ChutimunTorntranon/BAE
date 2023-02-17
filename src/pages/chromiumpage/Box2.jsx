@@ -1,27 +1,27 @@
 import React from "react";
 import ModalImage from "react-modal-image";
+import { useTranslation } from "react-i18next";
 function Box2() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
+
   return (
     <div className="Box1 xl:mt-[20px] mt-[-1px]">
       <div className="container mx-auto">
         <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[22px] text-center">
-          <strong>Chromium การชุบโครเมี่ยม คืออะไร?</strong>
+          <strong>{t("ch1")}</strong>
         </div>
         <ul className="list-disc p-5">
           <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
-            <strong>chrome plating</strong> คือ เทคโนโลยีการชุบโลหะ
-            ที่อาศัยกลไกทางไฟฟ้า วิธีนี้จะได้ผิวเคลือบที่เรียบ
-            สามารถทนต่อการกัดกร่อนได้สูง
-            ได้ความหนาของผิวเคลือบและเฉดสีที่สม่ำเสมอกัน
-            เพิ่มแรงยึดเกาะให้ดีขึ้น นิยมใช้สำหรับการเคลือบวัสดุที่มีความซับซ้อน
-            เช่น ชิ้นส่วนรถยนต์ ชิ้นส่วนอิเล็กทรอนิกส์ ฯลฯ
-            ชุบโลหะด้วยไฟฟ้าสามารถชุบวัสดุได้หลากหลาย ทั้งเหล็ก อลูมิเนียม ซิงค์
-            ฯลฯ
+            <strong>{t("ch2")}</strong>&nbsp;
+            {t("ch3")}
           </li>
           <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
-            <strong>ข้อดีของการชุบ Chromium ?</strong>
-            ช่วยให้วัสดุที่ได้รับการชุบมีความเงาสวยงาม
-            ป้องกันการถลอกจากการกัดกร่อนและการกระแทก
+            <strong>{t("ch4")}</strong>
+            {t("ch5")}
           </li>
         </ul>
       </div>

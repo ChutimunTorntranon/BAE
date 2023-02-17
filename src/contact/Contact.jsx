@@ -1,7 +1,7 @@
 import React from "react";
 import Component1 from "./Component1";
 import Component2 from "./Component2";
-
+import { useTranslation } from "react-i18next";
 import { CiAlarmOn } from "react-icons/ci";
 import { GoDeviceMobile } from "react-icons/go";
 import { SiGmail } from "react-icons/si";
@@ -11,12 +11,17 @@ import "./text.css";
 import FooterContact from "./FooterContact";
 
 function Contact() {
+  const { t, i18n } = useTranslation();
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
   return (
     <div className="">
       <div className="w-full xl:h-[200px] h-[120px] bg-indigo-600">
         <div className="container grid mx-auto h-full">
           <div className="mx-auto my-auto Zince xl:text-[50px] text-[22px]">
-            Contact Us
+            {t("heading1")}
           </div>
         </div>
         <div className="mx-auto grid xl:grid-cols-3 grid-cols-1 p-5">
@@ -32,8 +37,8 @@ function Contact() {
             <div className="p-2 flex headFont xl:ml-20">
               <BiMap className="2xl:w-[30px] 2xl:h-[30px] w-[20px] h-[20px]" />
               <p className="2xl:text-[20px] text-[13px]">
-                &nbsp;: 10 รามอินทรา 117 แยก 2 ถนนรามอินทรา
-                <br /> แขวงมีนบุรี เขตมีนบุรี กรุงเทพมหานคร 10510
+                &nbsp;: &nbsp;{t("ct")}
+                <br /> {t("ct1")}
               </p>
             </div>
             <div className="p-2 flex headFont xl:ml-20">
@@ -45,7 +50,7 @@ function Contact() {
             <div className="p-2 flex headFont xl:ml-20">
               <GoDeviceMobile className="2xl:w-[30px] 2xl:h-[30px] w-[20px] h-[20px]" />
               <p className="2xl:text-[20px] text-[13px]">
-                &nbsp;: 086-306-3746 คุณสมชาติ (โอ๋)
+                &nbsp;: 086-306-3746 {t("ct2")}
               </p>
             </div>
             <div className="p-2 flex headFont xl:ml-20">

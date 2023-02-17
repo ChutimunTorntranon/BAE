@@ -102,10 +102,15 @@ function Navbar2() {
                 </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
-                <button onClick={() => handleChangeLng("th")}>TH</button>
+                <button className="Font1" onClick={() => handleChangeLng("th")}>
+                  TH
+                </button>
               </li>
+
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
-                <button onClick={() => handleChangeLng("en")}>EN</button>
+                <button className="Font1" onClick={() => handleChangeLng("en")}>
+                  EN
+                </button>
               </li>
             </ul>
           </div>
