@@ -1,12 +1,23 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 function Navbar2() {
   const [navbar, setNavbar] = useState(false);
+  const [lang, setLang] = useState(false);
   const { t, i18n } = useTranslation();
-  const handleChangeLng = (lng) => {
+  const handleChangeTH = (lng) => {
+    setLang(true);
     i18n.changeLanguage(lng);
     localStorage.setItem("lng", lng);
   };
+  const handleChangEng = (lng) => {
+    setLang(false);
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  };
+
+  const location = useLocation();
+  console.log(location);
   return (
     <nav className="w-full bg-white shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
@@ -72,7 +83,9 @@ function Navbar2() {
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <a
                   href="/"
-                  className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center"
+                  className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
+                    location.pathname === "/" ? "text-blue-600 underline" : ""
+                  }`}
                 >
                   {t("home")}
                 </a>
@@ -80,35 +93,57 @@ function Navbar2() {
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <a
                   href="/Service"
-                  className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center"
+                  className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
+                    location.pathname === "/Service"
+                      ? "text-blue-600 underline"
+                      : ""
+                  }`}
                 >
                   {t("service")}
                 </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <a
-                  href="/เกี่ยวกับเรา"
-                  className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center"
+                  href="/History"
+                  className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
+                    location.pathname === "/History"
+                      ? "text-blue-600 underline"
+                      : ""
+                  }`}
                 >
                   {t("aboutme")}
                 </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <a
-                  href="/ติดต่อเรา"
-                  className="p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center"
+                  href="/Contact"
+                  className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
+                    location.pathname === "/Contact"
+                      ? "text-blue-600 underline"
+                      : ""
+                  }`}
                 >
                   {t("nav4")}
                 </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
-                <button className="Font1" onClick={() => handleChangeLng("th")}>
+                <button
+                  className={`Font1 ${
+                    lang === true ? "text-blue-600 underline" : ""
+                  }`}
+                  onClick={() => handleChangeTH("th")}
+                >
                   TH
                 </button>
               </li>
 
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
-                <button className="Font1" onClick={() => handleChangeLng("en")}>
+                <button
+                  className={`Font1 ${
+                    lang === false ? "text-blue-600 underline" : ""
+                  }`}
+                  onClick={() => handleChangEng("en")}
+                >
                   EN
                 </button>
               </li>

@@ -23,8 +23,8 @@ function Router() {
           <Route path="/Edp" element={<EdpPage />} />
           <Route path="/Chromium" element={<ChromiumPage />} />
           <Route path="/Stamping&welding" element={<Stamping />} />
-          <Route path="/เกี่ยวกับเรา" element={<History />} />
-          <Route path="/ติดต่อเรา" element={<Contact />} />
+          <Route path="/History" element={<History />} />
+          <Route path="/Contact" element={<Contact />} />
         </>
       </Routes>
       {/* Sawasdee */}
