@@ -3,18 +3,26 @@ import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 function Navbar2() {
   const [navbar, setNavbar] = useState(false);
-  const [lang, setLang] = useState(false);
+  const localStorageLanguage = localStorage.getItem("lng");
+
+  const [lang, setLang] = useState(
+    localStorageLanguage ? localStorageLanguage : "th"
+  );
   const { t, i18n } = useTranslation();
+
   const handleChangeTH = (lng) => {
-    setLang(true);
+    setLang("th");
     i18n.changeLanguage(lng);
     localStorage.setItem("lng", lng);
   };
   const handleChangEng = (lng) => {
-    setLang(false);
+    setLang("en");
     i18n.changeLanguage(lng);
     localStorage.setItem("lng", lng);
   };
+
+  // const localStorageLanguage = localStorage.getItem("lng");
+  console.log(localStorageLanguage);
 
   const location = useLocation();
   console.log(location);
@@ -104,14 +112,14 @@ function Navbar2() {
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <a
-                  href="/History"
+                  href="/AboutUs"
                   className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
-                    location.pathname === "/History"
+                    location.pathname === "/AboutUs"
                       ? "text-blue-600 underline"
                       : ""
                   }`}
                 >
-                  {t("aboutme")}
+                  {t("aboutus")}
                 </a>
               </li>
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
@@ -129,7 +137,7 @@ function Navbar2() {
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <button
                   className={`Font1 ${
-                    lang === true ? "text-blue-600 underline" : ""
+                    lang === "th" ? "text-blue-600 underline" : ""
                   }`}
                   onClick={() => handleChangeTH("th")}
                 >
@@ -140,7 +148,7 @@ function Navbar2() {
               <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
                 <button
                   className={`Font1 ${
-                    lang === false ? "text-blue-600 underline" : ""
+                    lang === "en" ? "text-blue-600 underline" : ""
                   }`}
                   onClick={() => handleChangEng("en")}
                 >

@@ -53,7 +53,7 @@ function ServicePage() {
         <Link to="/Chromium">
           <div className="image cursor-pointer">
             <img
-              src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium1.jpg"
+              src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/Chroooo.jpg"
               alt="Chromium"
               className="image__img"
             ></img>

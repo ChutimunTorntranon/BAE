@@ -27,7 +27,7 @@ function LinePage() {
               Stamping
             </div>
             <div className="p-3 Font2 xl:text-[22px] xl:text-left text-[15px] text-center">
-              {t("stamping")}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t("stamping")}
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ function LinePage() {
               Spot welding
             </div>
             <div className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
-              {t("spot")}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t("spot")}
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ function LinePage() {
               Arc welding
             </div>
             <div className="p-3 Font2 xl:text-[22px] xl:text-left text-[15px] text-center">
-              {t("arc")}
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {t("arc")}
             </div>
           </div>
         </div>

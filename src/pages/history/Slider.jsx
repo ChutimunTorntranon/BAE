@@ -12,9 +12,6 @@ function Slider() {
     {
       url: "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/newImg/IMG_1572.jpg",
     },
-    {
-      url: "https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/newImg/IMG_1573.jpg",
-    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

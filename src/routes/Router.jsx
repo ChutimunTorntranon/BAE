@@ -23,7 +23,7 @@ function Router() {
           <Route path="/Edp" element={<EdpPage />} />
           <Route path="/Chromium" element={<ChromiumPage />} />
           <Route path="/Stamping&welding" element={<Stamping />} />
-          <Route path="/History" element={<History />} />
+          <Route path="/AboutUs" element={<History />} />
           <Route path="/Contact" element={<Contact />} />
         </>
       </Routes>

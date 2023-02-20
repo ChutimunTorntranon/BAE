@@ -23,7 +23,7 @@ function WhyPage() {
           </h1>
           <p className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
             {" "}
-            {t("Why1")}
+            &nbsp;&nbsp;&nbsp;{t("Why1")}
           </p>
         </div>
         <div className="hover:shadow-2xl duration-500 ease-in">
@@ -37,7 +37,7 @@ function WhyPage() {
           </h1>
           <p className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
             {" "}
-            {t("Why2")}
+            &nbsp;&nbsp;&nbsp; {t("Why2")}
           </p>
         </div>
         <div className="hover:shadow-2xl duration-500 ease-in">
@@ -50,7 +50,7 @@ function WhyPage() {
           </h1>
           <p className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
             {" "}
-            {t("Why3")}
+            &nbsp;&nbsp;&nbsp; {t("Why3")}
           </p>
         </div>
       </div>
