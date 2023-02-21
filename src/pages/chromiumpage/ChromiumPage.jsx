@@ -25,6 +25,11 @@ function ChromiumPage() {
               {t("btb3")}
             </button>
           </Link>
+          <Link to="/EDP">
+            <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
+              {t("e4")}
+            </button>
+          </Link>
         </div>
         <Box2 />
         <Footer />

@@ -38,6 +38,11 @@ function AllProductPage() {
                 Stamp & welding
               </div>
             </div>
+            <Link to="/">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+                Stamp & welding
+              </div>
+            </Link>
           </Link>
           <Link to="/PlatingProduct">
             <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
@@ -48,6 +53,11 @@ function AllProductPage() {
               ></img>
               <div className="image__overlay image__overlay--blur">Plating</div>
             </div>
+            <Link to="/PlatingProduct">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+                Plating
+              </div>
+            </Link>
           </Link>
           <Link to="/Tooling">
             <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
@@ -58,8 +68,14 @@ function AllProductPage() {
               ></img>
               <div className="image__overlay image__overlay--blur">Tooling</div>
             </div>
+            <Link to="/Tooling">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+                Tooling
+              </div>
+            </Link>
           </Link>
         </div>
+
         <Footer />
         <GoToTop />
       </div>

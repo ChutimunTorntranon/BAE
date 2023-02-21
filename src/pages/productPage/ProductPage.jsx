@@ -35,6 +35,11 @@ function ProductPage() {
               ></img>
               <div className="image__overlay image__overlay--blur">ZINC</div>
             </div>
+            <Link to="/Zinc">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+                ZINC
+              </div>
+            </Link>
           </Link>
           <Link to="/Edp">
             <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
@@ -45,6 +50,11 @@ function ProductPage() {
               ></img>
               <div className="image__overlay image__overlay--blur">EDP</div>
             </div>
+            <Link to="/Edp">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+                EDP
+              </div>
+            </Link>
           </Link>
           <Link to="/Chromium">
             <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
@@ -57,6 +67,11 @@ function ProductPage() {
                 Chromium
               </div>
             </div>
+            <Link to="/Chromium">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+                Chromium
+              </div>
+            </Link>
           </Link>
           {/* <Link>
 						<div className='image cursor-pointer'>

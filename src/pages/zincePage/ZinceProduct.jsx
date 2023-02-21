@@ -25,6 +25,13 @@ function ZinceProduct() {
               {t("btb3")}
             </button>
           </Link>
+          <div>
+            <Link to="/Edp">
+              <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
+                {t("e1")}
+              </button>
+            </Link>
+          </div>
         </div>
         <Box1 />
         <Footer />

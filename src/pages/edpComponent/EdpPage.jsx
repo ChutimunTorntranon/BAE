@@ -26,6 +26,19 @@ function EdpPage() {
               {t("btb3")}
             </button>
           </Link>
+          <div>
+            <Link to="/Zinc">
+              <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
+                {t("e2")}
+              </button>
+            </Link>
+            &nbsp;&nbsp;&nbsp;
+            <Link to="/Chromium">
+              <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
+                {t("e3")}
+              </button>
+            </Link>
+          </div>
         </div>
         <Box2 />
         <Footer />
