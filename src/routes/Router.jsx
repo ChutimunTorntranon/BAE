@@ -10,6 +10,8 @@ import ChromiumPage from "../pages/chromiumpage/ChromiumPage";
 import Stamping from "../pages/stampimg/Stamping";
 import History from "../pages/history/History";
 import Contact from "../contact/Contact";
+import AllProductPage from "../pages/allProduct/AllProductPage";
+import Tooling from "../pages/tooling/Tooling";
 function Router() {
   return (
     <>
@@ -18,13 +20,15 @@ function Router() {
       <Routes>
         <>
           <Route path="/" element={<PostPage />} />
-          <Route path="/Service" element={<ProductPage />} />
+          <Route path="/MyService" element={<AllProductPage />} />
+          <Route path="/PlatingProduct" element={<ProductPage />} />
           <Route path="/Zinc" element={<ZinceProduct />} />
           <Route path="/Edp" element={<EdpPage />} />
           <Route path="/Chromium" element={<ChromiumPage />} />
           <Route path="/Stamping&welding" element={<Stamping />} />
           <Route path="/AboutUs" element={<History />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Tooling" element={<Tooling />} />
         </>
       </Routes>
       {/* Sawasdee */}

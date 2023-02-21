@@ -8,8 +8,8 @@ function LinePage() {
     localStorage.setItem("lng", lng);
   };
   return (
-    <div className="container mx-auto p-5">
-      <div className="grid xl:grid-cols-3 grid-cols-1">
+    <div className="mx-auto p-5">
+      <div className="grid xl:grid-cols-4 grid-cols-1">
         <div>
           <iframe
             className="rounded-3xl my-10 mx-auto xl:w-[450px]"
@@ -69,6 +69,27 @@ function LinePage() {
             </div>
             <div className="p-3 Font2 xl:text-[22px] xl:text-left text-[15px] text-center">
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {t("arc")}
+            </div>
+          </div>
+        </div>
+        <div>
+          <iframe
+            className="rounded-3xl my-10 mx-auto xl:w-[450px]"
+            width="350"
+            height="255"
+            src="https://www.youtube.com/embed/aJC75tJwuwg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <div>
+            <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[25px] text-center">
+              tooling
+            </div>
+            <div className="p-3 Font2 xl:text-[22px] xl:text-left text-[15px] text-center">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {t("tool")}
             </div>
           </div>
         </div>

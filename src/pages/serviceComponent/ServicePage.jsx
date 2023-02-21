@@ -12,14 +12,14 @@ function ServicePage() {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto my-5">
       <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-center text-[25px] text-center">
         {t("ourservice")}
       </div>
 
-      <div className="grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container mx-auto p-3">
+      <div className="grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto p-3">
         <Link to="/Stamping&welding">
-          <div className="xl:w-[380px] xl:h-[470px] relative cursor-pointer">
+          <div className="m-auto xl:w-[380px] xl:h-[470px] relative cursor-pointer">
             <img
               src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/stamppppp.jpg"
               alt="Zinc"
@@ -28,36 +28,29 @@ function ServicePage() {
             <div className="image__overlay image__overlay--blur">
               Stamp & welding
             </div>
+            <div className="text-center Font1 p-1"> Stamp & welding</div>
           </div>
         </Link>
-        <Link to="/Zinc">
-          <div className="image cursor-pointer">
+        <Link to="/PlatingProduct">
+          <div className="m-auto relative xl:w-[380px] xl:h-[470px] w-[350px] cursor-pointer">
             <img
               src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Parts04.png"
-              alt="Zinc"
+              alt="zinc"
               className="image__img"
             ></img>
-            <div className="image__overlay image__overlay--blur">ZINC</div>
+            <div className="image__overlay image__overlay--blur">Plating</div>
+            <div className="text-center Font1 p-1">Plating</div>
           </div>
         </Link>
-        <Link to="/EDP">
-          <div className="image cursor-pointer">
+        <Link to="/Tooling">
+          <div className="m-auto relative xl:w-[380px] xl:h-[470px] w-[350px] cursor-pointer">
             <img
               src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-09.png"
-              alt="EDP"
+              alt="edp"
               className="image__img"
             ></img>
-            <div className="image__overlay image__overlay--blur">EDP</div>
-          </div>
-        </Link>
-        <Link to="/Chromium">
-          <div className="image cursor-pointer">
-            <img
-              src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/Chroooo.jpg"
-              alt="Chromium"
-              className="image__img"
-            ></img>
-            <div className="image__overlay image__overlay--blur">CHROMIUM</div>
+            <div className="image__overlay image__overlay--blur">Tooling</div>
+            <div className="text-center Font1 p-1">Tooling</div>
           </div>
         </Link>
       </div>

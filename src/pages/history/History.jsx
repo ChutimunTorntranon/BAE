@@ -5,6 +5,7 @@ import Component from "./Component";
 import Team from "./Team";
 import Team2 from "./Team2";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 function History() {
   const { t, i18n } = useTranslation();
   const handleChangeLng = (lng) => {

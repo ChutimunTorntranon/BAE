@@ -88,7 +88,7 @@ function Navbar2() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+              <li className="navFont hover:text-blue-600 duration-500">
                 <a
                   href="/"
                   className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
@@ -98,11 +98,11 @@ function Navbar2() {
                   {t("home")}
                 </a>
               </li>
-              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+              <li className="navFont hover:text-blue-600 duration-500">
                 <a
-                  href="/Service"
+                  href="/MyService"
                   className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
-                    location.pathname === "/Service"
+                    location.pathname === "/MyService"
                       ? "text-blue-600 underline"
                       : ""
                   }`}
@@ -110,7 +110,7 @@ function Navbar2() {
                   {t("service")}
                 </a>
               </li>
-              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+              <li className="navFont hover:text-blue-600 duration-500">
                 <a
                   href="/AboutUs"
                   className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
@@ -122,7 +122,7 @@ function Navbar2() {
                   {t("aboutus")}
                 </a>
               </li>
-              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+              <li className="navFont hover:text-blue-600 duration-500">
                 <a
                   href="/Contact"
                   className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
@@ -134,7 +134,7 @@ function Navbar2() {
                   {t("nav4")}
                 </a>
               </li>
-              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+              <li className="navFont hover:text-blue-600 duration-500">
                 <button
                   className={`Font1 ${
                     lang === "th" ? "text-blue-600 underline" : ""
@@ -145,7 +145,7 @@ function Navbar2() {
                 </button>
               </li>
 
-              <li className="navFont hover:text-blue-600 link-underline link-underline-black duration-500">
+              <li className="navFont hover:text-blue-600 duration-500">
                 <button
                   className={`Font1 ${
                     lang === "en" ? "text-blue-600 underline" : ""

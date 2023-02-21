@@ -80,5 +80,14 @@
 	"st": "Stamping & Welding",
 	"z1": "Zinc",
 	"Chro1":"Chromiums",
-	"edp01":"EDP"
+	"edp01":"EDP",
+
+	"tool":"tooling",
+	"hplat":"Plating Products",
+
+	"btb":"back to Home",
+	"btb2":"back to Service",
+	"btb3":"back to PlatingProduct",
+
+	"tooling":"Tooling"
 }

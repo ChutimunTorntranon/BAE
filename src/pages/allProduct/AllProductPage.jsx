@@ -1,75 +1,64 @@
 import React from "react";
-import "./Productpage.css";
+import "../productPage/Productpage.css";
 import { Link } from "react-router-dom";
 import Footer from "../../footer/Footer";
 import GoToTop from "../../component/GoToTop";
 import { useTranslation } from "react-i18next";
-function ProductPage() {
+function AllProductPage() {
   const { t, i18n } = useTranslation();
   const handleChangeLng = (lng) => {
     i18n.changeLanguage(lng);
     localStorage.setItem("lng", lng);
   };
+
   return (
     <div className="">
       <div className="w-full xl:h-[200px] h-[120px] bg-indigo-600">
         <div className="container grid mx-auto h-full">
           <div className="mx-auto my-auto Zince xl:text-[50px] text-[22px]">
-            {t("hplat")}
+            {t("service")}
           </div>
         </div>
         <div className="mx-auto container flex justify-between">
-          <Link to="/MyService">
+          <Link to="/">
             <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
-              {t("btb2")}
+              {t("btb")}
             </button>
           </Link>
         </div>
         <div className="container grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto p-1">
-          <Link to="/Zinc">
+          <Link to="/Stamping&welding">
+            <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
+              <img
+                src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/stamppppp.jpg"
+                alt="Stamp & welding"
+                className="image__img"
+              ></img>
+              <div className="image__overlay image__overlay--blur">
+                Stamp & welding
+              </div>
+            </div>
+          </Link>
+          <Link to="/PlatingProduct">
             <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
               <img
                 src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Parts04.png"
                 alt="zinc"
                 className="image__img"
               ></img>
-              <div className="image__overlay image__overlay--blur">ZINC</div>
+              <div className="image__overlay image__overlay--blur">Plating</div>
             </div>
           </Link>
-          <Link to="/Edp">
+          <Link to="/Tooling">
             <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
               <img
                 src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-09.png"
                 alt="edp"
                 className="image__img"
               ></img>
-              <div className="image__overlay image__overlay--blur">EDP</div>
+              <div className="image__overlay image__overlay--blur">Tooling</div>
             </div>
           </Link>
-          <Link to="/Chromium">
-            <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
-              <img
-                src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/Chroooo.jpg"
-                alt="Chromium"
-                className="image__img"
-              ></img>
-              <div className="image__overlay image__overlay--blur">
-                Chromium
-              </div>
-            </div>
-          </Link>
-          {/* <Link>
-						<div className='image cursor-pointer'>
-							<img
-								src='https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium.png'
-								alt='zince'
-								className='image__img'
-							></img>
-							<div className='image__overlay image__overlay--blur'>
-								CHROMIUM
-							</div>
-						</div>
-					</Link> */}
         </div>
         <Footer />
         <GoToTop />
@@ -78,4 +67,4 @@ function ProductPage() {
   );
 }
 
-export default ProductPage;
+export default AllProductPage;
