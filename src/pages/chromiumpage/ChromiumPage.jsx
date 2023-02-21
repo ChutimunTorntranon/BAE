@@ -21,12 +21,12 @@ function ChromiumPage() {
         </div>
         <div className="mx-auto container flex justify-between">
           <Link to="/PlatingProduct">
-            <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
+            <button className="Font1 text-[20px] hover:text-blue-600 duration-500 underline">
               {t("btb3")}
             </button>
           </Link>
           <Link to="/EDP">
-            <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
+            <button className="Font1 text-[20px] hover:text-blue-600 duration-500 underline">
               {t("e4")}
             </button>
           </Link>

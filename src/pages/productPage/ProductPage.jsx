@@ -20,7 +20,7 @@ function ProductPage() {
         </div>
         <div className="mx-auto container flex justify-between">
           <Link to="/MyService">
-            <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
+            <button className="Font1 text-[20px] hover:text-blue-600 duration-500 underline">
               {t("btb2")}
             </button>
           </Link>
@@ -36,7 +36,7 @@ function ProductPage() {
               <div className="image__overlay image__overlay--blur">ZINC</div>
             </div>
             <Link to="/Zinc">
-              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500 underline">
                 ZINC
               </div>
             </Link>
@@ -51,7 +51,7 @@ function ProductPage() {
               <div className="image__overlay image__overlay--blur">EDP</div>
             </div>
             <Link to="/Edp">
-              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500 underline">
                 EDP
               </div>
             </Link>
@@ -68,23 +68,11 @@ function ProductPage() {
               </div>
             </div>
             <Link to="/Chromium">
-              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500 underline">
                 Chromium
               </div>
             </Link>
           </Link>
-          {/* <Link>
-						<div className='image cursor-pointer'>
-							<img
-								src='https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Chromium.png'
-								alt='zince'
-								className='image__img'
-							></img>
-							<div className='image__overlay image__overlay--blur'>
-								CHROMIUM
-							</div>
-						</div>
-					</Link> */}
         </div>
         <Footer />
         <GoToTop />

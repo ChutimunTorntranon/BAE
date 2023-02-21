@@ -21,7 +21,7 @@ function AllProductPage() {
         </div>
         <div className="mx-auto container flex justify-between">
           <Link to="/">
-            <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
+            <button className="Font1 text-[20px] hover:text-blue-600 duration-500 underline">
               {t("btb")}
             </button>
           </Link>
@@ -39,7 +39,7 @@ function AllProductPage() {
               </div>
             </div>
             <Link to="/">
-              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500 underline">
                 Stamp & welding
               </div>
             </Link>
@@ -54,7 +54,7 @@ function AllProductPage() {
               <div className="image__overlay image__overlay--blur">Plating</div>
             </div>
             <Link to="/PlatingProduct">
-              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500 underline">
                 Plating
               </div>
             </Link>
@@ -69,7 +69,7 @@ function AllProductPage() {
               <div className="image__overlay image__overlay--blur">Tooling</div>
             </div>
             <Link to="/Tooling">
-              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500 underline">
                 Tooling
               </div>
             </Link>

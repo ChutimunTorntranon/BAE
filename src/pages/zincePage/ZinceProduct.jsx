@@ -21,13 +21,13 @@ function ZinceProduct() {
         </div>
         <div className="mx-auto container flex justify-between">
           <Link to="/PlatingProduct">
-            <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
+            <button className="Font1 text-[20px] hover:text-blue-600 duration-500 underline">
               {t("btb3")}
             </button>
           </Link>
           <div>
             <Link to="/Edp">
-              <button className="Font1 text-[20px] hover:text-blue-600 duration-500">
+              <button className="Font1 text-[20px] hover:text-blue-600 duration-500 underline">
                 {t("e1")}
               </button>
             </Link>
