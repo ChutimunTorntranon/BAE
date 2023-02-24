@@ -28,7 +28,10 @@ function ServicePage() {
             <div className="image__overlay image__overlay--blur">
               Stamp & welding
             </div>
-            <div className="text-center Font1 p-1"> Stamp & welding</div>
+            <div className="text-center Font1 p-1 underline hover:text-blue-600 duration-500">
+              {" "}
+              Stamp & welding
+            </div>
           </div>
         </Link>
         <Link to="/PlatingProduct">
@@ -39,7 +42,9 @@ function ServicePage() {
               className="image__img"
             ></img>
             <div className="image__overlay image__overlay--blur">Plating</div>
-            <div className="text-center Font1 p-1">Plating</div>
+            <div className="text-center Font1 p-1 underline hover:text-blue-600 duration-500">
+              Plating
+            </div>
           </div>
         </Link>
         <Link to="/Tooling">
@@ -50,7 +55,9 @@ function ServicePage() {
               className="image__img"
             ></img>
             <div className="image__overlay image__overlay--blur">Tooling</div>
-            <div className="text-center Font1 p-1">Tooling</div>
+            <div className="text-center Font1 p-1 underline hover:text-blue-600 duration-500">
+              Tooling
+            </div>
           </div>
         </Link>
       </div>
