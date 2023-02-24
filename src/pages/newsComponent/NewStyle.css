@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600&family=Noto+Sans+Thai:wght@100;200;300;400;500&display=swap");
+.fontTitle {
+  font-family: "Hind Madurai", sans-serif;
+}
+.fontNav {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+.newFont {
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-size: 17px;
+}

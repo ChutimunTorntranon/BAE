@@ -1,0 +1,45 @@
+.image {
+  position: relative;
+  width: 350px;
+  margin: auto;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.image__overlay {
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.5s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
