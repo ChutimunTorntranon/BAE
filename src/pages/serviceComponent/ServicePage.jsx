@@ -19,7 +19,7 @@ function ServicePage() {
 
 			<div className='grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto p-3'>
 				<Link to='/Stamping&welding'>
-					<div className='m-auto xl:w-[380px] xl:h-[470px] relative cursor-pointer'>
+					<div className='m-auto xl:w-[380px] xl:h-[470px] w-[350px] relative cursor-pointer'>
 						<img
 							src='https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/stamppppp.jpg'
 							alt='Zinc'
