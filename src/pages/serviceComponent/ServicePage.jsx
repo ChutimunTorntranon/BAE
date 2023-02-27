@@ -50,7 +50,7 @@ function ServicePage() {
 				<Link to='/Tooling'>
 					<div className='m-auto relative xl:w-[380px] xl:h-[470px] w-[350px] cursor-pointer'>
 						<img
-							src='https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-09.png'
+							src='https://bae-image-video.s3.ap-southeast-1.amazonaws.com/diee4.jpg'
 							alt='edp'
 							className='image__img'
 						></img>

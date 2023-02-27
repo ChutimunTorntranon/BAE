@@ -86,10 +86,10 @@ function Box2() {
 						/>
 						<ModalImage
 							small={
-								'https://bae-image-video.s3.ap-southeast-1.amazonaws.com/LINE_ALBUM_2023.2.24_230224_6.jpg'
+								'https://bae-image-video.s3.ap-southeast-1.amazonaws.com/422.jpg'
 							}
 							large={
-								'https://bae-image-video.s3.ap-southeast-1.amazonaws.com/LINE_ALBUM_2023.2.24_230224_6.jpg'
+								'https://bae-image-video.s3.ap-southeast-1.amazonaws.com/422.jpg'
 							}
 							alt=''
 							className='w-[400px] h-[300px] mx-auto hover:scale-125 ease-in duration-500 p-3'

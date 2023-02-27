@@ -19,9 +19,9 @@ function AllProductPage() {
 						{t('service')}
 					</div>
 				</div>
-				<div className='mx-auto container flex justify-between'>
+				<div className='container mx-auto xl:text-left text-center'>
 					<Link to='/'>
-						<button className='Font1 text-[20px] hover:text-blue-600 duration-500 underline'>
+						<button className='Font1 text-[19px] hover:text-blue-600 duration-500 underline'>
 							{t('btb')}
 						</button>
 					</Link>
@@ -62,7 +62,7 @@ function AllProductPage() {
 					<Link to='/Tooling'>
 						<div className='m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer'>
 							<img
-								src='https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/EDP-09.png'
+								src='https://bae-image-video.s3.ap-southeast-1.amazonaws.com/diee4.jpg'
 								alt='edp'
 								className='image__img'
 							></img>
