@@ -36,7 +36,7 @@ function LinePage() {
 						className='rounded-3xl my-10 mx-auto xl:w-[450px]'
 						width='350'
 						height='255'
-						src='https://www.youtube.com/embed/yRI3iiSgd6U'
+						src='https://www.youtube.com/embed/eYGBlTunvHM'
 						title='YouTube video player'
 						frameborder='0'
 						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
@@ -44,7 +44,7 @@ function LinePage() {
 					></iframe>
 					<div>
 						<div className='p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[25px] text-center'>
-							Spot welding
+							SpotWelding Line
 						</div>
 						<div className='p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center'>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('spot')}
@@ -56,7 +56,7 @@ function LinePage() {
 						className='rounded-3xl my-10 mx-auto xl:w-[450px]'
 						width='350'
 						height='255'
-						src='https://www.youtube.com/embed/qPBHDenv5ug'
+						src='https://www.youtube.com/embed/e6NkU7vCkNE'
 						title='YouTube video player'
 						frameborder='0'
 						allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
@@ -65,7 +65,7 @@ function LinePage() {
 
 					<div>
 						<div className='p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[25px] text-center'>
-							Arc welding
+							Arc Welding
 						</div>
 						<div className='p-3 Font2 xl:text-[22px] xl:text-left text-[15px] text-center'>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {t('arc')}
@@ -86,7 +86,7 @@ function LinePage() {
 
 					<div>
 						<div className='p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[25px] text-center'>
-							tooling
+							Tooling & Die
 						</div>
 						<div className='p-3 Font2 xl:text-[22px] xl:text-left text-[15px] text-center'>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {t('tool')}
