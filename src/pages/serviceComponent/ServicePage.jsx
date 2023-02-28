@@ -54,9 +54,11 @@ function ServicePage() {
 							alt='edp'
 							className='image__img'
 						></img>
-						<div className='image__overlay image__overlay--blur'>Tooling</div>
+						<div className='image__overlay image__overlay--blur'>
+							Tooling & Die
+						</div>
 						<div className='text-center Font1 p-1 underline hover:text-blue-600 duration-500'>
-							Tooling
+							Tooling & Die
 						</div>
 					</div>
 				</Link>
