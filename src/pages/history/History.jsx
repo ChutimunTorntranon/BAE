@@ -21,7 +21,7 @@ function History() {
           </div>
         </div>
         <Component />
-        <Team />
+        {/* <Team /> */}
         <Team2 />
         <Footer />
         <GoToTop />

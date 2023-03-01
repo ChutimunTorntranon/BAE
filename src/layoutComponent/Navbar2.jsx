@@ -39,7 +39,7 @@ function Navbar2() {
                   className="w-[100px] h-[100px]"
                 />
                 <h2 className="text-[15px] xl:text-xl font-bold xl:mt-5 mt-[30px] ml-5">
-                  Brother Auto&nbsp;parts <br />& Engineering Co.,Ltd
+                  Brother Auto&nbsp;Parts <br />& Engineering Co.,Ltd
                 </h2>
               </div>
             </a>

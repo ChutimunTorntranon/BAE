@@ -47,7 +47,7 @@ function AllProductPage() {
           <Link to="/PlatingProduct">
             <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
               <img
-                src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/LINE_ALBUM_2023.2.24_230224_21.jpg"
+                src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/plating/plaitng.jpg"
                 alt="zinc"
                 className="image__img"
               ></img>
@@ -62,8 +62,8 @@ function AllProductPage() {
           <Link to="/Tooling">
             <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
               <img
-                src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/diee4.jpg"
-                alt="edp"
+                src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/part+DiEE/diee4.jpg"
+                alt="Tooling&Die"
                 className="image__img"
               ></img>
               <div className="image__overlay image__overlay--blur">
