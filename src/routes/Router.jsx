@@ -12,10 +12,10 @@ import History from "../pages/history/History";
 import Contact from "../contact/Contact";
 import AllProductPage from "../pages/allProduct/AllProductPage";
 import Tooling from "../pages/tooling/Tooling";
+import QualityControlPage from "../pages/qc/QualityControlPage";
 function Router() {
   return (
     <>
-      {/* <Navbar /> */}
       <Navbar2 />
       <Routes>
         <>
@@ -29,9 +29,9 @@ function Router() {
           <Route path="/AboutUs" element={<History />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Tooling" element={<Tooling />} />
+          <Route path="/QualityControl" element={<QualityControlPage />} />
         </>
       </Routes>
-      {/* Sawasdee */}
     </>
   );
 }

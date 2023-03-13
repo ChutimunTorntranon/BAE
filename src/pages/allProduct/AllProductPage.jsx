@@ -26,9 +26,9 @@ function AllProductPage() {
             </button>
           </Link>
         </div>
-        <div className="container grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto p-1">
+        <div className="container grid grid-cols-1 sm:mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto p-1">
           <Link to="/Stamping&welding">
-            <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
+            <div className="m-auto relative xl:w-[350px] xl:h-[600px] w-[350px] cursor-pointer">
               <img
                 src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/stamppppp.jpg"
                 alt="Stamp & welding"
@@ -45,7 +45,7 @@ function AllProductPage() {
             </Link>
           </Link>
           <Link to="/PlatingProduct">
-            <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
+            <div className="m-auto relative xl:w-[350px] xl:h-[600px] w-[350px] cursor-pointer">
               <img
                 src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/plating/plaitng.jpg"
                 alt="zinc"
@@ -60,7 +60,7 @@ function AllProductPage() {
             </Link>
           </Link>
           <Link to="/Tooling">
-            <div className="m-auto relative xl:w-[450px] xl:h-[690px] w-[350px] cursor-pointer">
+            <div className="m-auto relative xl:w-[350px] xl:h-[600px] w-[350px] cursor-pointer">
               <img
                 src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/part+DiEE/diee4.jpg"
                 alt="Tooling&Die"
@@ -73,6 +73,23 @@ function AllProductPage() {
             <Link to="/Tooling">
               <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500 underline">
                 Tooling & Die
+              </div>
+            </Link>
+          </Link>
+          <Link to="/QualityControl">
+            <div className="m-auto relative 2xl:w-[390px] xl:w-[350px] xl:h-[600px] w-[350px] cursor-pointer">
+              <img
+                src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc(tensile+test).jpg"
+                alt="Tooling&Die"
+                className="image__img"
+              ></img>
+              <div className="image__overlay image__overlay--blur">
+                QualityControl
+              </div>
+            </div>
+            <Link to="/QualityControl">
+              <div className="text-center Font1 p-1 text-[20px] hover:text-blue-600 duration-500 underline">
+                QualityControl
               </div>
             </Link>
           </Link>

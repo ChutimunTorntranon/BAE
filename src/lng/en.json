@@ -108,5 +108,7 @@
 	"ht10": "Injection procedure using hydraulic system There is enough pressure piston system to fill mold cavity or die body.",
 	"ht11": "The metal water flows through the Gate Runner into the gap that forms the shape of the workpiece.",
 	"ht12": "The metal is cooling There was a change in the internal structure.",
-	"ht13": "Release or knock off the work piece."
+	"ht13": "Release or knock off the work piece.",
+
+	"qc1":"Quality Control"
 }
