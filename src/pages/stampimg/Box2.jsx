@@ -8,17 +8,17 @@ function Box2() {
     localStorage.setItem("lng", lng);
   };
   return (
-    <div className="Box1 xl:mt-[20px] mt-[-1px]">
+    <div className="Box1 xl:mt-[20px] mt-[-1px] ">
       <div className="container mx-auto">
-        <div className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center">
+        <div className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-center xl:ml-6">
           <strong>{t("Hstamp")}</strong>
         </div>
         <ul className="list-disc p-5">
-          <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
+          <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left xl:ml-6">
             <strong>{t("Tstamp1")}</strong>&nbsp;
             {t("Tstamp2")}
           </li>
-          <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
+          <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left xl:ml-6">
             <strong>{t("Hstamp1")}</strong>&nbsp;
             {t("Tstamp3")}
             <li>{t("Tstamp4")}</li>

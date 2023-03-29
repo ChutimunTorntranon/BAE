@@ -12,15 +12,15 @@ function Box2() {
   return (
     <div className="Box1 xl:mt-[20px] mt-[-1px]">
       <div className="container mx-auto">
-        <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[23px] text-center">
+        <div className="p-3 Font1 font-bold xl:text-[30px] xl:text-left text-[23px] text-center xl:ml-8">
           <strong>{t("edp1")}</strong>
         </div>
         <ul className="list-disc p-5">
-          <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
+          <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left xl:ml-8">
             <strong>{t("edp2")}</strong>
             &nbsp;{t("edp3")}
           </li>
-          <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left">
+          <li className="p-3 Font2 xl:text-[21px] xl:text-left text-[15px] text-left xl:ml-8">
             <strong>{t("edp4")}</strong>
             <br></br>
             {t("edp5")}

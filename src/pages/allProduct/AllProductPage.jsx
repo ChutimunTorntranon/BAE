@@ -21,7 +21,7 @@ function AllProductPage() {
         </div>
         <div className="container mx-auto xl:text-left text-center">
           <Link to="/">
-            <button className="Font1 text-[19px] hover:text-blue-600 duration-500 underline">
+            <button className="Font1 text-[19px] hover:text-blue-600 duration-500 underline xl:ml-6">
               {t("btb")}
             </button>
           </Link>
@@ -79,7 +79,7 @@ function AllProductPage() {
           <Link to="/QualityControl">
             <div className="m-auto relative 2xl:w-[390px] xl:w-[350px] xl:h-[600px] w-[350px] cursor-pointer">
               <img
-                src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc(tensile+test).jpg"
+                src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/LINE_ALBUM_Qc_%E0%B9%92%E0%B9%93%E0%B9%90%E0%B9%93%E0%B9%92%E0%B9%99.jpg"
                 alt="Tooling&Die"
                 className="image__img"
               ></img>

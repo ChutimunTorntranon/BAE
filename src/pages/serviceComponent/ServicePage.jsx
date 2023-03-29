@@ -65,15 +65,15 @@ function ServicePage() {
         <Link to="/QualityControl">
           <div className="m-auto relative xl:w-[380px] xl:h-[470px] w-[350px] cursor-pointer">
             <img
-              src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc(tensile+test).jpg"
+              src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/LINE_ALBUM_Qc_%E0%B9%92%E0%B9%93%E0%B9%90%E0%B9%93%E0%B9%92%E0%B9%99.jpg"
               alt="edp"
               className="image__img"
             ></img>
             <div className="image__overlay image__overlay--blur">
-              Tooling & Die
+              Quality & Control
             </div>
             <div className="text-center Font1 p-1 underline hover:text-blue-600 duration-500">
-              Tooling & Die
+              Quality & Control
             </div>
           </div>
         </Link>

@@ -21,7 +21,7 @@ function QualityControlPage() {
         </div>
         <div className="mx-auto container 2xl:flex 2xl:justify-between text-center">
           <Link to="/MyService">
-            <button className="Font1 text-[20px] hover:text-blue-600 duration-500 underline">
+            <button className="Font1 text-[20px] hover:text-blue-600 duration-500 underline xl:ml-8">
               {t("btb2")}
             </button>
           </Link>
