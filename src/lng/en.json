@@ -110,5 +110,10 @@
 	"ht12": "The metal is cooling There was a change in the internal structure.",
 	"ht13": "Release or knock off the work piece.",
 
-	"qc1":"Quality Control"
+	"qc1":"Quality Control",
+	"qc2":"Quality Control",
+	"qc3":"Brother Auto Parts and Engineering Co., Ltd. is committed to developing and guaranteeing the quality of the work after plating. To meet the standards specified by customers, the company therefore inspects, measures, analyzes and controls the quality with a variety of tools. so that customers receive the most quality products Certified ISO9001 quality system to meet the needs of customers.",
+	"qc4":"device analysis",
+	"qc5":"Our company analyzes the quality of metal by Scanner Test and Tensile Test to ensure that the product will be delivered to the customer. The highest quality is guaranteed. to respond to customer needs"
+
 }

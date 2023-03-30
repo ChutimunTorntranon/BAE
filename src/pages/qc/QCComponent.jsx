@@ -29,7 +29,7 @@ function QCComponent() {
           <div className="grid xl:grid-cols-3 grid-cols-1 p-5">
             <ModalImage
               small={
-                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/18063.jpg"
+                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc08.jpg"
               }
               large={
                 "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/18063.jpg"
@@ -39,7 +39,7 @@ function QCComponent() {
             />
             <ModalImage
               small={
-                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/120005.jpg"
+                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc05.jpg"
               }
               large={
                 "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/120005.jpg"
@@ -49,7 +49,7 @@ function QCComponent() {
             />
             <ModalImage
               small={
-                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/QA(%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%84%E0%B8%B3%E0%B8%A7%E0%B9%88%E0%B8%B2+scanner+test+%E0%B8%9A%E0%B8%99%E0%B8%AB%E0%B8%B1%E0%B8%A7).jpg"
+                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc02.jpg"
               }
               large={
                 "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/QA(%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%84%E0%B8%B3%E0%B8%A7%E0%B9%88%E0%B8%B2+scanner+test+%E0%B8%9A%E0%B8%99%E0%B8%AB%E0%B8%B1%E0%B8%A7).jpg"
@@ -59,7 +59,7 @@ function QCComponent() {
             />
             <ModalImage
               small={
-                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc(tensile+test).jpg"
+                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc06.jpg"
               }
               large={
                 "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc(tensile+test).jpg"
@@ -70,7 +70,7 @@ function QCComponent() {
 
             <ModalImage
               small={
-                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/QA(%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1qcfinal).jpg"
+                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc03.jpg"
               }
               large={
                 "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/QA(%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1qcfinal).jpg"
@@ -80,7 +80,7 @@ function QCComponent() {
             />
             <ModalImage
               small={
-                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/18068.jpg"
+                "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/qc01.jpg"
               }
               large={
                 "https://bae-image-video.s3.ap-southeast-1.amazonaws.com/quality-control-img/18068.jpg"

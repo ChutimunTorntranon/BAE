@@ -37,32 +37,32 @@ function Contact() {
               <br />
               <div className="p-2 flex headFont ">
                 <BiMap className="2xl:w-[30px] 2xl:h-[30px] w-[20px] h-[20px]" />
-                <p className="2xl:text-[18px] text-[13px]">
+                <p className="2xl:text-[16px] text-[13px]">
                   &nbsp;: &nbsp;{t("ct")}
                   <br /> {t("ct1")}
                 </p>
               </div>
               <div className="p-2 flex headFont">
                 <CiAlarmOn className="2xl:w-[30px] 2xl:h-[30px] w-[20px] h-[20px]" />
-                <p className="2xl:text-[18px] text-[13px]">
+                <p className="2xl:text-[16px] text-[13px]">
                   &nbsp;: Mon - Sat : 8.00 - 17.00
                 </p>
               </div>
               <div className="p-2 flex headFont">
                 <GoDeviceMobile className="2xl:w-[30px] 2xl:h-[30px] w-[20px] h-[20px]" />
-                <p className="2xl:text-[18px] text-[13px]">
+                <p className="2xl:text-[16px] text-[13px]">
                   &nbsp;: 086-306-3746 {t("ct2")}
                 </p>
               </div>
               <div className="p-2 flex headFont">
                 <SiGmail className="2xl:w-[30px] 2xl:h-[30px] w-[20px] h-[20px]" />
-                <p className="2xl:text-[18px] text-[13px]">
+                <p className="2xl:text-[16px] text-[13px]">
                   &nbsp; : salesmarketing@baethai.com
                 </p>
               </div>
               <div className="p-2 flex headFont">
                 <FaLine className="2xl:w-[30px] 2xl:h-[30px] w-[20px] h-[20px]" />
-                <p className="2xl:text-[18px] text-[13px]">&nbsp;: @263pijuz</p>
+                <p className="2xl:text-[16px] text-[13px]">&nbsp;: @263pijuz</p>
               </div>
             </div>
           </div>
