@@ -43,7 +43,7 @@ function WhyPage() {
         </div>
         <div className="hover:shadow-2xl duration-500 ease-in">
           <img
-            src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/Dojo+Training/150330.jpg"
+            src="https://bae-image-video.s3.ap-southeast-1.amazonaws.com/Dojo+Training/77496+crop.jpg"
             alt=""
             className="h-[285px] w-[700px]"
           />
