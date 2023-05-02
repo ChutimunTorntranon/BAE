@@ -99,8 +99,8 @@ function Navbar2() {
                 </Link>
               </li>
               <li className="navFont hover:text-blue-600 duration-500">
-                <a
-                  href="/MyService"
+                <Link
+                  to="/MyService"
                   className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
                     location.pathname === "/MyService"
                       ? "text-blue-600 underline"
@@ -108,7 +108,7 @@ function Navbar2() {
                   }`}
                 >
                   {t("service")}
-                </a>
+                </Link>
               </li>
               <li className="navFont hover:text-blue-600 duration-500">
                 <Link
