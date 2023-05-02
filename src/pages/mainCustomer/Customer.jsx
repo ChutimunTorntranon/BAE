@@ -14,7 +14,7 @@ function Customer() {
       <div className="grid xl:grid-cols-3 container mx-auto">
         <div>
           <img
-            src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Emerson+TM.jpg"
+            src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Mitsubishi+Motor.jpg"
             alt=""
             className="w-[300px] mx-auto my-8 hover:scale-110 ease-in duration-500"
           />
@@ -42,7 +42,7 @@ function Customer() {
         </div>
         <div>
           <img
-            src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Mitsubishi+Motor.jpg"
+            src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/Emerson+TM.jpg"
             alt=""
             className="w-[300px] mx-auto my-8 hover:scale-110 ease-in duration-500"
           />
