@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 function Navbar2() {
   const [navbar, setNavbar] = useState(false);
   const localStorageLanguage = localStorage.getItem("lng");
@@ -31,7 +31,7 @@ function Navbar2() {
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <a href="/">
+            <Link to="/">
               <div className="flex">
                 <img
                   src="https://baeimagevideo.s3.ap-southeast-1.amazonaws.com/image-brother/LogoBaepng.png"
@@ -42,7 +42,7 @@ function Navbar2() {
                   Brother Auto&nbsp;Parts <br />& Engineering Co.,Ltd
                 </h2>
               </div>
-            </a>
+            </Link>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -89,14 +89,14 @@ function Navbar2() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="navFont hover:text-blue-600 duration-500">
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
                     location.pathname === "/" ? "text-blue-600 underline" : ""
                   }`}
                 >
                   {t("home")}
-                </a>
+                </Link>
               </li>
               <li className="navFont hover:text-blue-600 duration-500">
                 <a
@@ -111,8 +111,8 @@ function Navbar2() {
                 </a>
               </li>
               <li className="navFont hover:text-blue-600 duration-500">
-                <a
-                  href="/AboutUs"
+                <Link
+                  to="/AboutUs"
                   className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
                     location.pathname === "/AboutUs"
                       ? "text-blue-600 underline"
@@ -120,11 +120,11 @@ function Navbar2() {
                   }`}
                 >
                   {t("aboutus")}
-                </a>
+                </Link>
               </li>
               <li className="navFont hover:text-blue-600 duration-500">
-                <a
-                  href="/Contact"
+                <Link
+                  to="/Contact"
                   className={`p-3 Font1 font-bold xl:text-[25px] xl:text-center text-[20px] text-center ${
                     location.pathname === "/Contact"
                       ? "text-blue-600 underline"
@@ -132,7 +132,7 @@ function Navbar2() {
                   }`}
                 >
                   {t("nav4")}
-                </a>
+                </Link>
               </li>
               <li className="navFont hover:text-blue-600 duration-500">
                 <button
