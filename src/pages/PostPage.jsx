@@ -16,8 +16,6 @@ function PostPage() {
       <BasicSlider />
       <LinePage />
       <ServicePage />
-      {/* <ProductPage /> */}
-      {/* <ProfilePage /> */}
       <CerPage />
       <Customer />
       <WhyPage />
